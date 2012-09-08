@@ -1,0 +1,179 @@
+{
+  "films": [
+    {
+      "country": "AUT",
+      "director": "Karl Markovics",
+      "duration": 98,
+      "format": "Digital",
+      "genre": "New Visions",
+      "imageUrl": "http://content6.flixster.com/movie/11/16/64/11166436_det.jpg",
+      "rating": 8,
+      "synopsis": "Roman Kogler, átján ára, er á betrunarstofnun fyrir unglinga. Eftir að hann losnar fær hann starf hjá líkhúsinu í vínarborg. Dag einn sinnir Roman látinni konu sem ber sama eftirnafn og hann. Í fyrsta sinn fer Roman að hugleiða fortíðina og leita móður sinnar.",
+      "ticketsSold": 83,
+      "titleEnglish": "Breathing",
+      "titleIcelandic": "Andandi",
+      "videoUrl": "",
+      "year": 2011
+    },
+    {
+      "country": "ARG",
+      "director": "Hernán Belón",
+      "duration": 85,
+      "format": "Digital",
+      "genre": "New Visions",
+      "imageUrl": "http://content9.flixster.com/movie/11/16/42/11164219_det.jpg",
+      "rating": 8,
+      "synopsis": "Santiago og Elisa eru nýbúin að eignast sitt fyrsta barn og festa kaup á heimili uppi í sveit. Húsið, sveitin, víðáttan og nágrannarnir gera Elisu órólega. Fyrr en varir lifir hún í sífelldum ótta um barnið sitt gagnvart öðru fólki, dýrum og fyrirvaralausum skapsveiflum.",
+      "ticketsSold": 71,
+      "titleEnglish": "In The Open",
+      "titleIcelandic": "Á Víðavangi",
+      "videoUrl": "",
+      "year": 2011
+    },
+    {
+      "country": "GRE",
+      "director": "Yorgos LantHimos",
+      "duration": 93,
+      "format": "35mm",
+      "genre": "Special Presentations",
+      "imageUrl": "http://content9.flixster.com/movie/11/16/53/11165323_det.jpg",
+      "rating": 7,
+      "synopsis": "Hjúkrunarfræðingur, sjúkraliði, fimleikakona og þjálfarinn hennar hafa stofnað leiguþjónustu. Þau eru ráðin af ættingjum, vinum og vandamönnum til þess að leysa af látið fólk eftir pöntun. Þetta er nýja myndin eftir yorgos Lanthimos, leikstjóra Hundstannar.",
+      "ticketsSold": 43,
+      "titleEnglish": "Alps",
+      "titleIcelandic": "Alparnir",
+      "videoUrl": "",
+      "year": 2011
+    },
+    {
+      "country": "RUS",
+      "director": "Aleksandr Sokurov",
+      "duration": 134,
+      "format": "Digital",
+      "genre": "Special Presentations",
+      "imageUrl": "http://content9.flixster.com/movie/11/16/44/11164467_det.jpg",
+      "rating": 7,
+      "synopsis": "Faust Sokurovs er ekki aðlögun á harmleik goethes í hefðbundnum skilningi, heldur túlkun á því sem má lesa milli línanna. Hvers konar heimur skapar risavaxnar hugmyndir? Hvernig er hann á litinn, hvernig lyktar hann? Þetta er fjórða myndin í seríu Sokurovs um valdspillingu. Hlaut gullljónið í Feneyjum.",
+      "ticketsSold": 23,
+      "titleEnglish": "Faust",
+      "titleIcelandic": "Faust",
+      "type": "Digital",
+      "videoUrl": "",
+      "year": 2011
+    },
+    {
+      "country": "IRA",
+      "director": "Asghar Farhadi",
+      "duration": 123,
+      "format": "35mm",
+      "genre": "Open Seas",
+      "imageUrl": "http://content8.flixster.com/movie/11/16/09/11160942_det.jpg",
+      "rating": 9,
+      "synopsis": "Simin langar að fara frá Íran ásamt eiginmanni sínum nader og dótturinni Termeh. Hún sækir um skilnað þegar nader neitar að skilja föður sinn eftir, en hann er þungt haldinn af Alzheimer. Þegar skilnaðinum er hafnað fer Simin aftur til foreldra sinna, en Termeh verður eftir með nader. vann gullbjörninn í berlín.",
+      "ticketsSold": 143,
+      "titleEnglish": "Nader and Simin, A Separation",
+      "titleIcelandic": "Aðskilnaður Nader Og Simin",
+      "videoUrl": "",
+      "year": 2011
+    },
+    {
+      "country": "BIH/TUR",
+      "director": "Nuri Bilge Ceylan",
+      "duration": 157,
+      "format": "35mm",
+      "genre": "Open Seas",
+      "imageUrl": "http://content9.flixster.com/movie/11/16/13/11161335_det.jpg",
+      "rating": 9,
+      "synopsis": "Að búa í smábæ er eins og að ferðast yfir gresjuna, manni finnst eins og eitthvað nýtt og sérstakt hljóti að leynast bak við næstu hæð. Samt er allt óneitanlega svipað, einsleitir vegir sem smám saman hverfa og verða ógreinilegri í fjarska... vann til grand Prix verðlaunanna í cannes í vor.",
+      "ticketsSold": 143,
+      "titleEnglish": "Once Upon A Time In Antolia",
+      "titleIcelandic": "Einu Sinni Var í Anatólíu",
+      "videoUrl": "",
+      "year": 2011
+    }
+  ],
+  "venues": [
+    {
+      "address": "Hverfisgötu 54, 101 Reykjavík",
+      "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
+      "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
+      "latitude": 64.14565,
+      "longitude": -21.92603,
+      "name": "Bíó Paradís",
+      "phone": "561 6060",
+      "screens": [
+        {
+          "name": "Screen 1"
+        },
+        {
+          "name": "Screen 2"
+        }
+      ],
+      "summary": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent. Proin  gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent",
+      "videoUrl": "",
+      "website": "kexhostel.is"
+    },
+    {
+      "address": "Hagatorgi, 107 Reykjavík",
+      "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
+      "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
+      "latitude": 64.140766,
+      "longitude": -21.95533,
+      "name": "Háskólabíó",
+      "phone": "561 6060",
+      "screens": [
+        {
+          "name": "Screen 1"
+        },
+        {
+          "name": "Screen 2"
+        }
+      ],
+      "summary": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent.",
+      "videoUrl": "",
+      "website": "kexhostel.is"
+    },
+    {
+      "address": "Sturlugötu 5, 101 Reykjavík",
+      "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
+      "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
+      "latitude": 64.13819,
+      "longitude": -21.946759,
+      "name": "Norræna Húsið",
+      "phone": "561 6060",
+      "screens": [
+        {
+          "name": "Screen 1"
+        },
+        {
+          "name": "Screen 2"
+        }
+      ],
+      "summary": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent.",
+      "videoUrl": "",
+      "website": "kexhostel.is"
+    },
+    {
+      "address": "Vonarstræti 3, 101 Reykjavík",
+      "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
+      "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
+      "latitude": 64.145831,
+      "longitude": -21.939912,
+      "name": "Iðnó",
+      "phone": "561 6060",
+      "screens": [
+        {
+          "name": "Screen 1"
+        },
+        {
+          "name": "Screen 2"
+        }
+      ],
+      "summary": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent.",
+      "videoUrl": "",
+      "website": "kexhostel.is"
+    }
+  ],
+  "screenings": [
+  ]
+}
