@@ -1,7 +1,7 @@
 {
   "films": [
     {
-      "id":1,
+      "id": 1,
       "country": "AUT",
       "director": "Karl Markovics",
       "duration": 98,
@@ -13,29 +13,29 @@
       "ticketsSold": 83,
       "titleEnglish": "Breathing",
       "titleIcelandic": "Andandi",
-      "videoUrl": "",
+      "videoUrl": "http://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "year": 2011,
-      "screenings":[
-          {      
-            "screen_id":"3-1",
-            "time":"2012-09-27 21:00"
-          },
-          {     
-            "screen_id":"3-1",
-            "time":"2012-09-28 21:00"
-          },
-          {     
-            "screen_id":"3-1",
-            "time":"2012-09-29 19:00"
-          },
-          {     
-            "screen_id":"3-1",
-            "time":"2012-09-29 21:00"
-          }
+      "screenings": [
+        {
+          "screen_id": "3-1",
+          "time": "2012-09-27 21:00"
+        },
+        {
+          "screen_id": "3-1",
+          "time": "2012-09-28 21:00"
+        },
+        {
+          "screen_id": "3-1",
+          "time": "2012-09-29 19:00"
+        },
+        {
+          "screen_id": "3-1",
+          "time": "2012-09-29 21:00"
+        }
       ]
     },
     {
-      "id":2,
+      "id": 2,
       "country": "ARG",
       "director": "Hernán Belón",
       "duration": 85,
@@ -47,25 +47,25 @@
       "ticketsSold": 71,
       "titleEnglish": "In The Open",
       "titleIcelandic": "Á Víðavangi",
-      "videoUrl": "",
+      "videoUrl": "http://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "year": 2011,
-      "screenings":[
-          {      
-            "screen_id":"1-1",
-            "time":"2012-09-27 21:00"
-          },
-          {
-             "screen_id":"1-1",
-             "time":"2012-09-28 21:00"
-           },
-           {
-             "screen_id":"1-1",
-             "time":"2012-09-29 21:00"
-           }
-        ]
+      "screenings": [
+        {
+          "screen_id": "1-1",
+          "time": "2012-09-27 21:00"
+        },
+        {
+          "screen_id": "1-1",
+          "time": "2012-09-28 21:00"
+        },
+        {
+          "screen_id": "1-1",
+          "time": "2012-09-29 21:00"
+        }
+      ]
     },
     {
-      "id":3,
+      "id": 3,
       "country": "GRE",
       "director": "Yorgos LantHimos",
       "duration": 93,
@@ -77,36 +77,37 @@
       "ticketsSold": 43,
       "titleEnglish": "Alps",
       "titleIcelandic": "Alparnir",
-      "videoUrl": "",
+      "videoUrl": "http://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "year": 2011,
-      "screenings":[
+      "screenings": [
         {
-          "screen_id":"2-2",
-          "time":"2012-09-27 19:00"
-        },{
-          "screen_id":"2-2",
-          "time":"2012-09-28 19:30"
+          "screen_id": "2-2",
+          "time": "2012-09-27 19:00"
         },
         {
-          "screen_id":"2-2",
-          "time":"2012-09-29 19:00"
-        },
-        {      
-          "screen_id":"3-2",
-          "time":"2012-09-27 19:30"
+          "screen_id": "2-2",
+          "time": "2012-09-28 19:30"
         },
         {
-          "screen_id":"4-1",
-          "time":"2012-09-27 20:00"
+          "screen_id": "2-2",
+          "time": "2012-09-29 19:00"
         },
-        {      
-          "screen_id":"4-2",
-          "time":"2012-09-29 19:00"
+        {
+          "screen_id": "3-2",
+          "time": "2012-09-27 19:30"
+        },
+        {
+          "screen_id": "4-1",
+          "time": "2012-09-27 20:00"
+        },
+        {
+          "screen_id": "4-2",
+          "time": "2012-09-29 19:00"
         }
       ]
     },
     {
-      "id":4,
+      "id": 4,
       "country": "RUS",
       "director": "Aleksandr Sokurov",
       "duration": 134,
@@ -119,29 +120,29 @@
       "titleEnglish": "Faust",
       "titleIcelandic": "Faust",
       "type": "Digital",
-      "videoUrl": "",
+      "videoUrl": "http://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "year": 2011,
-      "screenings":[
-        {      
-          "screen_id":"3-2",
-          "time":"2012-09-27 19:00"
-        },
-        {      
-          "screen_id":"3-2",
-          "time":"2012-09-28 19:00"
+      "screenings": [
+        {
+          "screen_id": "3-2",
+          "time": "2012-09-27 19:00"
         },
         {
-          "screen_id":"3-2",
-          "time":"2012-09-28 21:00"
+          "screen_id": "3-2",
+          "time": "2012-09-28 19:00"
         },
         {
-          "screen_id":"3-2",
-          "time":"2012-09-29 19:00"
+          "screen_id": "3-2",
+          "time": "2012-09-28 21:00"
+        },
+        {
+          "screen_id": "3-2",
+          "time": "2012-09-29 19:00"
         }
       ]
     },
     {
-      "id":5,
+      "id": 5,
       "country": "IRA",
       "director": "Asghar Farhadi",
       "duration": 123,
@@ -155,23 +156,23 @@
       "titleIcelandic": "Aðskilnaður Nader Og Simin",
       "videoUrl": "",
       "year": 2011,
-      "screenings":[
+      "screenings": [
         {
-          "screen_id":"3-1",
-          "time":"2012-09-27 19:00"
-         },
-        {
-          "screen_id":"3-1",
-          "time":"2012-09-28 19:00"
+          "screen_id": "3-1",
+          "time": "2012-09-27 19:00"
         },
         {
-          "screen_id":"3-1",
-          "time":"2012-09-28 23:00"
+          "screen_id": "3-1",
+          "time": "2012-09-28 19:00"
+        },
+        {
+          "screen_id": "3-1",
+          "time": "2012-09-28 23:00"
         }
       ]
     },
     {
-      "id":6,
+      "id": 6,
       "country": "BIH/TUR",
       "director": "Nuri Bilge Ceylan",
       "duration": 157,
@@ -183,30 +184,30 @@
       "ticketsSold": 143,
       "titleEnglish": "Once Upon A Time In Antolia",
       "titleIcelandic": "Einu Sinni Var í Anatólíu",
-      "videoUrl": "",
+      "videoUrl": "http://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "year": 2011,
-      "screenings":[
-        {      
-          "screen_id":"1-1",
-          "time":"2012-09-27 19:00"
-        },
-        {     
-          "screen_id":"1-1",
-          "time":"2012-09-28 19:00"
+      "screenings": [
+        {
+          "screen_id": "1-1",
+          "time": "2012-09-27 19:00"
         },
         {
-          "screen_id":"1-1",
-          "time":"2012-09-29 19:00"
+          "screen_id": "1-1",
+          "time": "2012-09-28 19:00"
         },
         {
-          "screen_id":"1-1",
-          "time":"2012-09-28 21:00"
+          "screen_id": "1-1",
+          "time": "2012-09-29 19:00"
+        },
+        {
+          "screen_id": "1-1",
+          "time": "2012-09-28 21:00"
         }
       ]
     }
   ],
   "venues": [
-    {      
+    {
       "address": "Hverfisgötu 54, 101 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
@@ -216,11 +217,11 @@
       "phone": "561 6060",
       "screens": [
         {
-          "id":"1-1",
+          "id": "1-1",
           "name": "Screen 1"
         },
         {
-          "id":"1-2",
+          "id": "1-2",
           "name": "Screen 2"
         }
       ],
@@ -228,7 +229,7 @@
       "videoUrl": "",
       "website": "kexhostel.is"
     },
-    {      
+    {
       "address": "Hagatorgi, 107 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
@@ -238,11 +239,11 @@
       "phone": "561 6060",
       "screens": [
         {
-          "id":"2-1",
+          "id": "2-1",
           "name": "Screen 1"
         },
         {
-          "id":"2-2",
+          "id": "2-2",
           "name": "Screen 2"
         }
       ],
@@ -250,7 +251,7 @@
       "videoUrl": "",
       "website": "kexhostel.is"
     },
-    {      
+    {
       "address": "Sturlugötu 5, 101 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
@@ -260,11 +261,11 @@
       "phone": "561 6060",
       "screens": [
         {
-          "id":"3-1",
+          "id": "3-1",
           "name": "Screen 1"
         },
         {
-          "id":"3-2",
+          "id": "3-2",
           "name": "Screen 2"
         }
       ],
@@ -272,7 +273,7 @@
       "videoUrl": "",
       "website": "kexhostel.is"
     },
-    {      
+    {
       "address": "Vonarstræti 3, 101 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
@@ -282,11 +283,11 @@
       "phone": "561 6060",
       "screens": [
         {
-          "id":"4-1",
+          "id": "4-1",
           "name": "Screen 1"
         },
         {
-          "id":"4-2",
+          "id": "4-2",
           "name": "Screen 2"
         }
       ],
