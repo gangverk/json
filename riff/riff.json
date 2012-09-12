@@ -224,6 +224,7 @@
   ],
   "venues": [
     {
+      "id":1,
       "address": "Hverfisgötu 54, 101 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
@@ -246,6 +247,7 @@
       "website": "kexhostel.is"
     },
     {
+      "id":2,
       "address": "Hagatorgi, 107 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
@@ -268,6 +270,7 @@
       "website": "kexhostel.is"
     },
     {
+      "id":3,
       "address": "Sturlugötu 5, 101 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
@@ -290,6 +293,7 @@
       "website": "kexhostel.is"
     },
     {
+      "id":4,
       "address": "Vonarstræti 3, 101 Reykjavík",
       "caption": "Welcome to Our Social Hostel in Downtown Reykjavik",
       "imageUrl": "http://www.kexhostel.is/static/images/borkur/tourdesk2.jpg",
