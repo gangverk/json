@@ -39,5 +39,10 @@
     "SI": "SI2027161",
     "SK": "SK2027162",
     "SV": "SV2170514"
-  }
+  },
+  "admarvel_siteid_iphone": "48375",
+  "admarvel_siteid_ipad": "50544",
+  "admarvel_partnerid": "0c286d7745b46aeb",
+  "admarvel_closed_period": 180,
+  "about_url": "http://cdn.last.fm/client/ios/scrobbler/ios.html"
 }
