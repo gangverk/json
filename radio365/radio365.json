@@ -1,0 +1,24 @@
+{
+  "default_stations": [
+    {
+      "name": "FM957",
+      "theme": "FM957"
+    },
+    {
+      "name": "GULL BYLGJAN",
+      "theme": "FM909"
+    },
+    {
+      "name": "BYLGJAN",
+      "theme": "FM989"
+    },
+    {
+      "name": "LÉTT BYLGJAN",
+      "theme": "FM989"
+    },
+    {
+      "name": "X 97.7",
+      "theme": "X977"
+    }
+  ]
+}
