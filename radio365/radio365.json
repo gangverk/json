@@ -2,23 +2,28 @@
   "default_stations": [
     {
       "name": "FM957",
-      "theme": "FM957"
+      "theme": "FM957",
+      "twitter_name": "FM_957"
     },
     {
       "name": "GULL BYLGJAN",
-      "theme": "FM909"
+      "theme": "FM909",
+      "twitter_name": ""
     },
     {
       "name": "BYLGJAN",
-      "theme": "FM989"
+      "theme": "FM989",
+      "twitter_name": ""
     },
     {
       "name": "LÉTT BYLGJAN",
-      "theme": "FM967"
+      "theme": "FM967",
+      "twitter_name": ""
     },
     {
       "name": "X 97.7",
-      "theme": "X977"
+      "theme": "X977",
+      "twitter_name": "xid977"
     }
   ],
   "news_url": "http://m.visir.is""
