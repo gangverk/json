@@ -1,0 +1,162 @@
+{
+  "stations": [
+    {
+      "name": "FM957",
+      "theme": "FM957",
+      "twitter_name": "FM_957",
+      "image_url": "",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Yngvi Eysteins",
+          "description": "Vaknaðu alla morgna með Yngva Eysteins. Helstu fréttir, létt spjall og topp tónlist.",
+          "telephone_number": "0000 0001",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall"
+        },
+        {
+          "id": 2,
+          "name": "Heiðar Austmann",
+          "description": "",
+          "telephone_number": "0000 0002",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81&proc=ShowSmall"
+        },
+        {
+          "id": 3,
+          "name": "Pétur Örn",
+          "description": "",
+          "telephone_number": "0000 0003",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=1f864637-0ab5-4b3a-9923-02ecc5782cd3&proc=ShowSmall"
+        },
+        {
+          "id": 4,
+          "name": "FM95BLÖ",
+          "description": "Auðunn Blöndal og félagar",
+          "telephone_number": "0000 0004",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=94dfd28f-f04d-4338-8f5f-8b2a628eab1f&proc=ShowSmall"
+        },
+        {
+          "id": 5,
+          "name": "Rikki G",
+          "description": "",
+          "telephone_number": "0000 0005",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=46330fd8-2cef-4fa2-b36b-1bc169ef32eb&proc=ShowSmall"
+        },
+        {
+          "id": 6,
+          "name": "Frigore",
+          "description": "",
+          "telephone_number": "0000 0006",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=44c94a86-147f-11e2-8d14-005056bc61c5&proc=ShowSmall"
+        },
+        {
+          "id": 7,
+          "name": "Íslenski Listinn",
+          "description": "",
+          "telephone_number": "0000 0007",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=73cb6b1b-1020-4232-9a05-44f1d683ce62&proc=ShowSmall"
+        },
+        {
+          "id": 8,
+          "name": "FM partí",
+          "description": "Öll heitasta partí-tónlistin á einum og sama staðnum!",
+          "telephone_number": "0000 0008",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5&proc=ShowSmall"
+        },
+        {
+          "id": 9,
+          "name": "Kristján Ingi & Ósk Gunnars",
+          "description": "Kristján Ingi og Ósk eru Gunnarsbörn - bróðir og systir á FM",
+          "telephone_number": "0000 0009",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525fec-147e-11e2-8d14-005056bc61c5&proc=ShowSmall"
+        },
+        {
+          "id": 10,
+          "name": "Topp Tónlist",
+          "description": "",
+          "telephone_number": "000 0010",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall"
+        },
+        {
+          "id": 11,
+          "name": "Þórður Daníel",
+          "description": "",
+          "telephone_number": "0000 0011",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall"
+        },
+        {
+          "id": 12,
+          "name": "Sússi",
+          "description": "",
+          "telephone_number": "0000 0012",
+          "twitter_name": "",
+           "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5&proc=ShowSmall"
+        },
+        {
+          "id": 13,
+          "name": "Kósý með Ernu Hrönn",
+          "description": "",
+          "telephone_number": "0000 0013",
+          "twitter_name": "",
+          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=c8bc2819-935a-49b5-b1a8-825397a5d445&proc=ShowSmall"
+        }
+      ],
+      "schedule": [
+        {
+          "program_id": 1,
+          "time": "07:00 - 13:00"
+        },
+        {
+          "program_id": 2,
+          "time": "10:00 - 13:00"
+        },
+        {
+          "program_id": 3,
+          "time": "13:00 - 16:00"
+        },
+        {
+          "program_id": 4,
+          "time": "16:00 - 18:00"
+        },
+        {
+          "program_id": 5,
+          "time": "18:00 - 21:00"
+        },
+        {
+          "program_id": 6,
+          "time": "21:00 - 01:00"
+        }
+      ],
+    },
+    {
+      "name": "GULL BYLGJAN",
+      "theme": "FM909",
+      "twitter_name": ""
+    },
+    {
+      "name": "BYLGJAN",
+      "theme": "FM989",
+      "twitter_name": "",
+    },
+    {
+      "name": "LÉTT BYLGJAN",
+      "theme": "FM967",
+      "twitter_name": ""
+    },
+    {
+      "name": "X 97.7",
+      "theme": "X977",
+      "twitter_name": "xid977"
+    }
+  ]
+}
