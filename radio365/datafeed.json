@@ -4,7 +4,7 @@
       "name": "FM957",
       "theme": "FM957",
       "twitter_name": "FM_957",
-      "image_small_url": "",
+      "image_url": "",
       "programs": [
         {
           "id": 1,
@@ -18,7 +18,7 @@
         {
           "id": 2,
           "name": "Heiðar Austmann",
-          "description": "",
+          "description": "Heiðar Austmann er lífsglaður ungur maður, faðir, hunda eigandi og unnusti. Til að toppa þetta allt þá ekur hann um á Volvo, sem er öruggt. Heiðar starfaði hjá Ormsson áður en hann kom til starfa á FM957 árið 1997. Hann ólst upp í Kópavogi og á að vera ötull stuðningsmaður H.K . Honum finnst fátt skemmtilegra en fótbolti og góðar stundir með fjölskyldu og vinum.",
           "telephone_number": "0000 0002",
           "twitter_name": "",
           "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81&proc=ShowSmall",
@@ -36,7 +36,7 @@
         {
           "id": 4,
           "name": "FM95BLÖ",
-          "description": "Auðunn Blöndal og félagar",
+          "description": "FM95BLÖ er í umsjón Auðuns Blöndal alla virka daga kl. 16 - 18  á FM957. Með Audda í þættinum eru nokkrir góðir vinir hans. Björn Bragi er á mánudögum, Sveppi á þriðjudögum og Hjöbbi Ká á fimmtudögum. Það vill enginn missa af þessum þætti - það er bara þannig.",
           "telephone_number": "0000 0004",
           "twitter_name": "",
           "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=94dfd28f-f04d-4338-8f5f-8b2a628eab1f&proc=ShowSmall",
@@ -169,7 +169,137 @@
     {
       "name": "X 97.7",
       "theme": "X977",
-      "twitter_name": "xid977"
+      "twitter_name": "xid977",
+      "image_url": "",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Harmageddon",
+          "description": "Harmageddon er hrikalegur útvarpsþáttur sem tekur púlsinn á öllu því helsta sem gerist í þjóðfélaginu í dag. Harmageddon er eins alvarlegur og hann er fyndinn. Viðmælendur og umræðunefni þáttarins er allt milli himins og jarðar. Hver er ríkur, frægur, samkynhneigður, íþróttamaður, eiturlyfjaneitandi eða klæðskiptingur í karlmannsleit. Andstæðan við allt þetta eða nánast hvað sem er. Harmageddon tekur á öllu sem skiptir máli og sumu af því sem skiptir engu máli.",
+          "telephone_number": "0000 0001",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/harmageddon2-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/harmageddon2-280x280.png"
+        },
+        {
+          "id": 2,
+          "name": "Morgunþátturinn Ómar",
+          "description": "Morgunþátturinn Ómar er einlægur útvarpsþáttur með ástríðu fyrir tónlist. Markmið þáttarins eru skýr, að koma hlustendum glottandi inní daginn.",
+          "telephone_number": "0000 0002",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png"
+        },
+        {
+          "id": 3,
+          "name": "Orri",
+          "description": "Orri kann á takkana og þú færð bestu X tónlistina hverju sinni",
+          "telephone_number": "0000 0003",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/orri-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/orri-280x280.png"
+        },
+        {
+          "id": 4,
+          "name": "Boltinn",
+          "description": "Máni, íþróttafréttamenn af Vísi og Fréttablaðinu og fótbolti.net skiptast á að fjalla um körfubolta, handbolta og fótbolta.",
+          "telephone_number": "0000 0004",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/Boltinn_280x280.jpg",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/Boltinn_280x280.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Haukur morðingi",
+          "description": "Haukur morðingi mætir öll virk kvöld í gasklefa X-977 og fylgir hlustendum inní nóttina með eðaltónum og fróðleik í bland.",
+          "telephone_number": "0000 0005",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/haukur-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/haukur-280x280.png"
+        },
+        {
+          "id": 6,
+          "name": "Frosti",
+          "description": "Meistari kynþokkans Frosti Logason fylgir þér heim eftir daginn.",
+          "telephone_number": "0000 0006",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/frosti-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/frosti-280x280.png"
+        },
+        {
+          "id": 7,
+          "name": "Gufuvélin",
+          "description": "Gufuvélin í umsjón Mána öll þriðjudags og miðvikudagskvöld. Ómþýð og þægileg tónlist að kvöldi dags. Láttu stressið líða úr þér og hlustaðu á Gufuvélina á X-977 frá kl 22:00 til miðnættis.",
+          "telephone_number": "0000 0007",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/mani-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/mani-280x280.png"
+        },
+        {
+          "id": 8,
+          "name": "Straumur",
+          "description": "Fylgstu með tónlist morgundagsins í Straumi, öll mánudagskvöld milli kl 22:00 - 00:00",
+          "telephone_number": "0000 0008",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/oli-dori-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/oli-dori-280x280.png"
+        },
+        {
+          "id": 9,
+          "name": "Funkþátturinn",
+          "description": "Don Balli Funk og Símon fucking handsome með allt það besta í tónlistinni.",
+          "telephone_number": "0000 0009",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/fonkthatturinn-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/fonkthatturinn-280x280.png"
+        },
+        {
+          "id": 10,
+          "name": "Glymskrattinn",
+          "description": "Rockabilly goðsögnin Smutty Smiff sér um Glymskrattann, öll föstudagskvöld milli kl 22:00 - 00:00. Rockabilly, ska, punk og reggae. Skelltu vaxi í hárið og hlustaðu!",
+          "telephone_number": "000 0010",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/smutty-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/smutty-280x280.png"
+        },
+        {
+          "id": 11,
+          "name": "Fótbolti.net",
+          "description": "Byrjaðu fótboltahelgina með X-inu og Fótbolta.net á laugardögum milli
+12 og 14. Fótbolti.net hefur verið í loftinu síðustu ár og fjallað um fótboltann í víðu samhengi. Rætt er við þjálfara, leikmenn og ýmsa sérfræðinga. Svo lengi sem það tengist vinsælustu íþróttagrein heims þá er það þættinum ekki óviðkomandi. Umsjónarmenn eru íþróttafréttamennirnir Elvar Geir Magnússon og Tómas Þór Þórðarson.",
+          "telephone_number": "0000 0011",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/fotbolti-net-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/fotbolti-net-280x280.png"
+        },
+        {
+          "id": 12,
+          "name": "Laugardagskaffið",
+          "description": "Það er alltaf heitt á könnunni á X-977 á laugardögum milli kl 15:00 - 17:00",
+          "telephone_number": "0000 0012",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/atli-fannar-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/atli-fannar-280x280.png"
+        },
+        {
+          "id": 13,
+          "name": "Breakbeat.is",
+          "description": "Dansaðu frá þér allt vit á laugardagskvöldum á X-977.",
+          "telephone_number": "0000 0013",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/breakbeat-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/breakbeat-280x280.png"
+        },
+        {
+          "id": 14,
+          "name": "Helmkeyrslan",
+          "description": "Dansaðu frá þér allt vit á laugardagskvöldum á X-977.",
+          "telephone_number": "0000 0013",
+          "twitter_name": "",
+          "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png",
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png"
+        }
+      ],
     }
   ]
 }
