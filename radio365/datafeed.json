@@ -4,7 +4,7 @@
       "name": "FM957",
       "theme": "FM957",
       "twitter_name": "FM_957",
-      "image_url": "",
+      "image_small_url": "",
       "programs": [
         {
           "id": 1,
@@ -12,7 +12,8 @@
           "description": "Vaknaðu alla morgna með Yngva Eysteins. Helstu fréttir, létt spjall og topp tónlist.",
           "telephone_number": "0000 0001",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68"
         },
         {
           "id": 2,
@@ -20,7 +21,8 @@
           "description": "",
           "telephone_number": "0000 0002",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81"
         },
         {
           "id": 3,
@@ -28,7 +30,8 @@
           "description": "",
           "telephone_number": "0000 0003",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=1f864637-0ab5-4b3a-9923-02ecc5782cd3&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=1f864637-0ab5-4b3a-9923-02ecc5782cd3&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=1f864637-0ab5-4b3a-9923-02ecc5782cd3"
         },
         {
           "id": 4,
@@ -36,7 +39,8 @@
           "description": "Auðunn Blöndal og félagar",
           "telephone_number": "0000 0004",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=94dfd28f-f04d-4338-8f5f-8b2a628eab1f&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=94dfd28f-f04d-4338-8f5f-8b2a628eab1f&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=94dfd28f-f04d-4338-8f5f-8b2a628eab1f"
         },
         {
           "id": 5,
@@ -44,7 +48,8 @@
           "description": "",
           "telephone_number": "0000 0005",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=46330fd8-2cef-4fa2-b36b-1bc169ef32eb&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=46330fd8-2cef-4fa2-b36b-1bc169ef32eb&proc=ShowSmall"
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=46330fd8-2cef-4fa2-b36b-1bc169ef32eb"
         },
         {
           "id": 6,
@@ -52,7 +57,8 @@
           "description": "",
           "telephone_number": "0000 0006",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=44c94a86-147f-11e2-8d14-005056bc61c5&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=44c94a86-147f-11e2-8d14-005056bc61c5&proc=ShowSmall"
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=44c94a86-147f-11e2-8d14-005056bc61c5"
         },
         {
           "id": 7,
@@ -60,7 +66,8 @@
           "description": "",
           "telephone_number": "0000 0007",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=73cb6b1b-1020-4232-9a05-44f1d683ce62&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=73cb6b1b-1020-4232-9a05-44f1d683ce62&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=73cb6b1b-1020-4232-9a05-44f1d683ce62"
         },
         {
           "id": 8,
@@ -68,7 +75,8 @@
           "description": "Öll heitasta partí-tónlistin á einum og sama staðnum!",
           "telephone_number": "0000 0008",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5"
         },
         {
           "id": 9,
@@ -76,7 +84,8 @@
           "description": "Kristján Ingi og Ósk eru Gunnarsbörn - bróðir og systir á FM",
           "telephone_number": "0000 0009",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525fec-147e-11e2-8d14-005056bc61c5&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525fec-147e-11e2-8d14-005056bc61c5&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525fec-147e-11e2-8d14-005056bc61c5"
         },
         {
           "id": 10,
@@ -84,7 +93,8 @@
           "description": "",
           "telephone_number": "000 0010",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68"
         },
         {
           "id": 11,
@@ -92,7 +102,8 @@
           "description": "",
           "telephone_number": "0000 0011",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=af0df626-5f26-42f9-8586-fa14eab91d68"
         },
         {
           "id": 12,
@@ -100,7 +111,8 @@
           "description": "",
           "telephone_number": "0000 0012",
           "twitter_name": "",
-           "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=f6525feb-147e-11e2-8d14-005056bc61c5"
         },
         {
           "id": 13,
@@ -108,7 +120,8 @@
           "description": "",
           "telephone_number": "0000 0013",
           "twitter_name": "",
-          "image_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=c8bc2819-935a-49b5-b1a8-825397a5d445&proc=ShowSmall"
+          "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=c8bc2819-935a-49b5-b1a8-825397a5d445&proc=ShowSmall",
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=c8bc2819-935a-49b5-b1a8-825397a5d445"
         }
       ],
       "schedule": [
