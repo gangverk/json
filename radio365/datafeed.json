@@ -5,6 +5,7 @@
       "theme": "FM957",
       "twitter_name": "FM_957",
       "image_url": "",
+      "url": "http://fm957.visir.is/",
       "programs": [
         {
           "id": 1,
@@ -22,7 +23,8 @@
           "telephone_number": "0000 0002",
           "twitter_name": "",
           "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81&proc=ShowSmall",
-          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81"
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=5d7532b4-8fbf-4dfa-a946-4db7d59d7c81",
+          "url": "http://fm957.visir.is/fm957/heidar-austmann/"
         },
         {
           "id": 3,
@@ -49,7 +51,8 @@
           "telephone_number": "0000 0005",
           "twitter_name": "",
           "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=46330fd8-2cef-4fa2-b36b-1bc169ef32eb&proc=ShowSmall",
-          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=46330fd8-2cef-4fa2-b36b-1bc169ef32eb"
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=46330fd8-2cef-4fa2-b36b-1bc169ef32eb",
+          "url": "http://fm957.visir.is/fm957/rikki-g/"
         },
         {
           "id": 6,
@@ -67,7 +70,8 @@
           "telephone_number": "0000 0007",
           "twitter_name": "",
           "image_small_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=73cb6b1b-1020-4232-9a05-44f1d683ce62&proc=ShowSmall",
-          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=73cb6b1b-1020-4232-9a05-44f1d683ce62"
+          "image_large_url": "http://fm957.visir.is/lisalib/getfile.aspx?itemid=73cb6b1b-1020-4232-9a05-44f1d683ce62",
+          "url": "http://fm957.visir.is/fm957/islenski-listinn"
         },
         {
           "id": 8,
@@ -160,6 +164,7 @@
       "name": "BYLGJAN",
       "theme": "FM989",
       "twitter_name": "",
+      "url": "http://bylgjan.visir.is/",
     },
     {
       "name": "LÉTT BYLGJAN",
@@ -171,6 +176,7 @@
       "theme": "X977",
       "twitter_name": "xid977",
       "image_url": "",
+      "url": "http://x977.visir.is",
       "programs": [
         {
           "id": 1,
@@ -188,7 +194,8 @@
           "telephone_number": "0000 0002",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png",
+          "url": "http://x977.visir.is/morgunthatturinn-omar/"
         },
         {
           "id": 3,
@@ -197,7 +204,8 @@
           "telephone_number": "0000 0003",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/orri-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/orri-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/orri-280x280.png",
+          "url": "http://x977.visir.is/orri/"
         },
         {
           "id": 4,
@@ -206,7 +214,8 @@
           "telephone_number": "0000 0004",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/Boltinn_280x280.jpg",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/Boltinn_280x280.jpg"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/Boltinn_280x280.jpg",
+          "url": "http://x977.visir.is/boltinn"
         },
         {
           "id": 5,
@@ -215,7 +224,8 @@
           "telephone_number": "0000 0005",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/haukur-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/haukur-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/haukur-280x280.png",
+          "url": "http://x977.visir.is/haukur-mordingi/"
         },
         {
           "id": 6,
@@ -224,7 +234,8 @@
           "telephone_number": "0000 0006",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/frosti-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/frosti-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/frosti-280x280.png",
+          "url": "http://x977.visir.is/frosti/"
         },
         {
           "id": 7,
@@ -233,7 +244,8 @@
           "telephone_number": "0000 0007",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/mani-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/mani-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/mani-280x280.png",
+          "url": "http://x977.visir.is/gufuvelin/"
         },
         {
           "id": 8,
@@ -242,7 +254,8 @@
           "telephone_number": "0000 0008",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/oli-dori-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/oli-dori-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/oli-dori-280x280.png",
+          "url": "http://x977.visir.is/straumur/"
         },
         {
           "id": 9,
@@ -251,7 +264,8 @@
           "telephone_number": "0000 0009",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/fonkthatturinn-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/fonkthatturinn-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/fonkthatturinn-280x280.png",
+          "url": "http://x977.visir.is/funkthatturinn/"
         },
         {
           "id": 10,
@@ -260,7 +274,8 @@
           "telephone_number": "000 0010",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/smutty-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/smutty-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/smutty-280x280.png",
+           "url": "http://x977.visir.is/glymskrattinn/"
         },
         {
           "id": 11,
@@ -269,7 +284,8 @@
           "telephone_number": "0000 0011",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/fotbolti-net-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/fotbolti-net-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/fotbolti-net-280x280.png",
+          "url": "http://x977.visir.is/fotbolti.net/"
         },
         {
           "id": 12,
@@ -278,7 +294,8 @@
           "telephone_number": "0000 0012",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/atli-fannar-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/atli-fannar-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/atli-fannar-280x280.png",
+          "url": "http://x977.visir.is/laugardagskaffid/"
         },
         {
           "id": 13,
@@ -287,7 +304,8 @@
           "telephone_number": "0000 0013",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/breakbeat-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/breakbeat-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/breakbeat-280x280.png",
+          "url": "http://x977.visir.is/breakbeat.is/"
         },
         {
           "id": 14,
@@ -296,7 +314,8 @@
           "telephone_number": "0000 0013",
           "twitter_name": "",
           "image_small_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png",
-          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png"
+          "image_large_url": "http://x977.visir.is/library/Images/thattamyndir/omar-280x280.png",
+          "url": "http://x977.visir.is/thaettir/"
         }
       ],
     }
