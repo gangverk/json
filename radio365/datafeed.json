@@ -6,6 +6,13 @@
       "twitter_name": "FM_957",
       "image_url": "",
       "url": "http://fm957.visir.is/",
+      "streams": [
+        {
+          "bitrate": 64000,
+          "format": "FLV",
+          "url": "http://208.80.54.69:80/WBZAMAAC"
+        }
+      ],
       "programs": [
         {
           "name": "Yngvi Eysteins",
@@ -310,6 +317,13 @@
       "twitter_name": "xid977",
       "image_url": "",
       "url": "http://x977.visir.is",
+      "streams": [
+        {
+          "bitrate": 64000,
+          "format": "FLV",
+          "url": "http://208.92.54.16:80/WINSAMAAC"
+        }
+      ],
       "programs": [
         {
           "name": "Harmageddon",
