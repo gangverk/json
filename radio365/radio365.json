@@ -1,7 +1,6 @@
 {
-  "datafeed_url": "https://raw.github.com/gangverk/json/master/radio365/datafeed.json",
-  "news_url": "http://m.visir.is"
-  "schedule_url": "http://vefutvarp.visir.is/dagskraoll/",
+  "news_url": "http://m.visir.is",
+  "schedule_url": "https://raw.github.com/gangverk/json/master/radio365/schedule.xml",
   "stations": [
     {
       "uid": "FM957",
