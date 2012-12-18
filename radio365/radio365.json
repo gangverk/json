@@ -1,4 +1,47 @@
 {
   "datafeed_url": "https://raw.github.com/gangverk/json/master/radio365/datafeed.json",
   "news_url": "http://m.visir.is"
+  "schedule_url": "http://vefutvarp.visir.is/dagskraoll/",
+  "stations": [
+    {
+      "uid": "FM957",
+      "name": "FM957",
+      "schedule_id": "8a9ed3f3-4457-4d07-9c67-393b3402ec29",
+      "theme": "FM957",
+      "twitter_id": "FM_957",
+      "url": "http://fm957.visir.is/"
+    },
+    {
+      "uid": "FM909",
+      "name": "Gull Bylgjan",
+      "schedule_id": "dc311586-fc21-4c11-a659-9640e0f6c814",
+      "theme": "FM909",
+      "twitter_id": "",
+      "url": ""
+    },
+    {
+      "uid": "FM989",
+      "name": "Bylgjan",
+      "schedule_id": "a285f8d7-0530-455a-bd49-06f0ae53a4a6",
+      "theme": "FM989",
+      "twitter_id": "",
+      "url": "http://bylgjan.visir.is/"
+    },
+    {
+      "uid": "FM967",
+      "name": "Létt Bylgjan",
+      "schedule_id": "2e9d01ff-c887-4015-86ed-08efc79783e3",
+      "theme": "FM967",
+      "twitter_id": "",
+      "url": "http://lettbylgjan.visir.is/"
+    },
+    {
+      "uid": "X977",
+      "name": "X977",
+      "schedule_id": "d6070048-eba2-4a2f-81b9-e1156ee911c3",
+      "theme": "X977",
+      "twitter_id": "xid977",
+      "url": "http://x977.visir.is/"
+    }
+  ]
 }
