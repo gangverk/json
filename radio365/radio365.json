@@ -1,4 +1,5 @@
 {
+  "facebook_posts_url": "https://radio365-heroku.herokuapp.com/get_token.php",
   "news_url": "http://m.visir.is",
   "schedule_url": "https://raw.github.com/gangverk/json/master/radio365/schedule.xml",
   "stations": [
