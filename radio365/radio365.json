@@ -5,12 +5,12 @@
   "schedule_url": "https://raw.github.com/gangverk/json/master/radio365/schedule.xml",
   "stations": [
     {
-      "uid": "FM957",
-      "name": "FM957",
-      "schedule_id": "8a9ed3f3-4457-4d07-9c67-393b3402ec29",
-      "theme": "FM957",
-      "twitter_id": "FM_957",
-      "url": "http://fm957.visir.is/"
+      "uid": "FM989",
+      "name": "BYLGJAN",
+      "schedule_id": "a285f8d7-0530-455a-bd49-06f0ae53a4a6",
+      "theme": "FM989",
+      "twitter_id": "",
+      "url": "http://bylgjan.visir.is/"
     },
     {
       "uid": "FM909",
@@ -21,20 +21,20 @@
       "url": ""
     },
     {
-      "uid": "FM989",
-      "name": "BYLGJAN",
-      "schedule_id": "a285f8d7-0530-455a-bd49-06f0ae53a4a6",
-      "theme": "FM989",
-      "twitter_id": "",
-      "url": "http://bylgjan.visir.is/"
-    },
-    {
       "uid": "FM967",
       "name": "LÉTT BYLGJAN",
       "schedule_id": "2e9d01ff-c887-4015-86ed-08efc79783e3",
       "theme": "FM967",
       "twitter_id": "",
       "url": "http://lettbylgjan.visir.is/"
+    },
+    {
+      "uid": "FM957",
+      "name": "FM957",
+      "schedule_id": "8a9ed3f3-4457-4d07-9c67-393b3402ec29",
+      "theme": "FM957",
+      "twitter_id": "FM_957",
+      "url": "http://fm957.visir.is/"
     },
     {
       "uid": "X977",
