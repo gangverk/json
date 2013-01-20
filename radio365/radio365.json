@@ -10,7 +10,8 @@
       "schedule_id": "a285f8d7-0530-455a-bd49-06f0ae53a4a6",
       "theme": "FM989",
       "twitter_id": "",
-      "url": "http://bylgjan.visir.is/"
+      "url": "http://bylgjan.visir.is/",,
+      "audioUrl":"http://utsending.visir.is:1935/rtplive/bylgjan_gaga.sdp/playlist.m3u8"
     },
     {
       "uid": "FM909",
@@ -18,7 +19,8 @@
       "schedule_id": "dc311586-fc21-4c11-a659-9640e0f6c814",
       "theme": "FM909",
       "twitter_id": "",
-      "url": ""
+      "url": "",,
+      "audioUrl":"http://utsending.visir.is:1935/rtplive/gull_gaga.sdp/playlist.m3u8"
     },
     {
       "uid": "FM967",
@@ -26,7 +28,8 @@
       "schedule_id": "2e9d01ff-c887-4015-86ed-08efc79783e3",
       "theme": "FM967",
       "twitter_id": "",
-      "url": "http://lettbylgjan.visir.is/"
+      "url": "http://lettbylgjan.visir.is/",
+      "audioUrl":"http://utsending.visir.is:1935/rtplive/lettbylgjan_gaga.sdp/playlist.m3u8"
     },
     {
       "uid": "FM957",
@@ -34,7 +37,8 @@
       "schedule_id": "8a9ed3f3-4457-4d07-9c67-393b3402ec29",
       "theme": "FM957",
       "twitter_id": "FM_957",
-      "url": "http://fm957.visir.is/"
+      "url": "http://fm957.visir.is/",
+      "audioUrl":"http://utsending.visir.is:1935/rtplive/fm957_gaga.sdp/playlist.m3u8"
     },
     {
       "uid": "X977",
@@ -42,7 +46,8 @@
       "schedule_id": "d6070048-eba2-4a2f-81b9-e1156ee911c3",
       "theme": "X977",
       "twitter_id": "xid977",
-      "url": "http://x977.visir.is/"
+      "url": "http://x977.visir.is/",
+      "audioUrl":"http://utsending.visir.is:1935/rtplive/xid_gaga.sdp/playlist.m3u8"
     }
   ]
 }
