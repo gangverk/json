@@ -1,7 +1,6 @@
 {
   "facebook_access_token": "315131545257847|W99_BiINkC11ptIz4nSuqoshVzE",
   "facebook_graph_url": "https://graph.facebook.com",
-  "news_url": "http://www.visir.is/section/FRETTIR&Template=rss&mime=xml&count=20",
   "schedule_url": "https://raw.github.com/gangverk/json/master/radio365/schedule.xml",
   "stations": [
     {
@@ -10,8 +9,9 @@
       "schedule_id": "a285f8d7-0530-455a-bd49-06f0ae53a4a6",
       "theme": "FM989",
       "twitter_id": "",
-      "url": "http://bylgjan.visir.is/",,
-      "audioUrl":"http://utsending.visir.is:1935/rtplive/bylgjan_gaga.sdp/playlist.m3u8"
+      "url": "http://bylgjan.visir.is/",
+      "audio_url": "http://utsending.visir.is:1935/rtplive/bylgjan_gaga.sdp/playlist.m3u8",
+      "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan"
     },
     {
       "uid": "FM909",
@@ -19,8 +19,9 @@
       "schedule_id": "dc311586-fc21-4c11-a659-9640e0f6c814",
       "theme": "FM909",
       "twitter_id": "",
-      "url": "",,
-      "audioUrl":"http://utsending.visir.is:1935/rtplive/gull_gaga.sdp/playlist.m3u8"
+      "url": "",
+      "audio_url": "http://utsending.visir.is:1935/rtplive/gull_gaga.sdp/playlist.m3u8",
+      "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan"
     },
     {
       "uid": "FM967",
@@ -29,7 +30,8 @@
       "theme": "FM967",
       "twitter_id": "",
       "url": "http://lettbylgjan.visir.is/",
-      "audioUrl":"http://utsending.visir.is:1935/rtplive/lettbylgjan_gaga.sdp/playlist.m3u8"
+      "audio_url": "http://utsending.visir.is:1935/rtplive/lettbylgjan_gaga.sdp/playlist.m3u8",
+      "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan"
     },
     {
       "uid": "FM957",
@@ -38,7 +40,8 @@
       "theme": "FM957",
       "twitter_id": "FM_957",
       "url": "http://fm957.visir.is/",
-      "audioUrl":"http://utsending.visir.is:1935/rtplive/fm957_gaga.sdp/playlist.m3u8"
+      "audio_url": "http://utsending.visir.is:1935/rtplive/fm957_gaga.sdp/playlist.m3u8",
+      "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan"
     },
     {
       "uid": "X977",
@@ -47,7 +50,8 @@
       "theme": "X977",
       "twitter_id": "xid977",
       "url": "http://x977.visir.is/",
-      "audioUrl":"http://utsending.visir.is:1935/rtplive/xid_gaga.sdp/playlist.m3u8"
+      "audio_url": "http://utsending.visir.is:1935/rtplive/xid_gaga.sdp/playlist.m3u8",
+      "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan"
     }
   ]
 }
