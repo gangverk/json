@@ -41,7 +41,7 @@
       "twitter_id": "FM_957",
       "url": "http://fm957.visir.is/",
       "audio_url": "http://utsending.visir.is:1935/rtplive/fm957_gaga.sdp/playlist.m3u8",
-      "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan"
+      "news_url": "http://fm957.visir.is/appsupport-frettir-fm957"
     },
     {
       "uid": "X977",
@@ -51,7 +51,7 @@
       "twitter_id": "xid977",
       "url": "http://x977.visir.is/",
       "audio_url": "http://utsending.visir.is:1935/rtplive/xid_gaga.sdp/playlist.m3u8",
-      "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan"
+      "news_url": "http://x977.visir.is/appsupport-frettir-xid"
     }
   ]
 }
