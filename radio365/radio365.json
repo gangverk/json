@@ -15,7 +15,8 @@
       "url": "http://bylgjan.visir.is/",
       "audio_url": "http://utsending.visir.is:1935/rtplive/bylgjan_gaga.sdp/playlist.m3u8",
       "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan",
-      "top_songs_url": "http://bylgjan.visir.is/appsupport-topplisti-bylgjan"
+      "top_songs_url": "http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
+      "podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     },
     {
       "uid": "FM909",
@@ -29,7 +30,8 @@
       "url": "",
       "audio_url": "http://utsending.visir.is:1935/rtplive/gull_gaga.sdp/playlist.m3u8",
       "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan",
-      "top_songs_url": "http://bylgjan.visir.is/appsupport-topplisti-bylgjan"
+      "top_songs_url": "http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
+      "podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     },
     {
       "uid": "FM967",
@@ -43,7 +45,8 @@
       "url": "http://lettbylgjan.visir.is/",
       "audio_url": "http://utsending.visir.is:1935/rtplive/lettbylgjan_gaga.sdp/playlist.m3u8",
       "news_url": "http://bylgjan.visir.is/appsupport-frettir-bylgjan",
-      "top_songs_url": "http://bylgjan.visir.is/appsupport-topplisti-bylgjan"
+      "top_songs_url": "http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
+      "podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     },
     {
       "uid": "FM957",
@@ -57,7 +60,8 @@
       "url": "http://fm957.visir.is/",
       "audio_url": "http://utsending.visir.is:1935/rtplive/fm957_gaga.sdp/playlist.m3u8",
       "news_url": "http://fm957.visir.is/appsupport-frettir-fm957",
-      "top_songs_url": "http://fm957.visir.is/appsupport-topplisti-fm957"
+      "top_songs_url": "http://fm957.visir.is/appsupport-topplisti-fm957",
+      "podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=12&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     },
     {
       "uid": "X977",
@@ -71,7 +75,8 @@
       "url": "http://x977.visir.is/",
       "audio_url": "http://utsending.visir.is:1935/rtplive/xid_gaga.sdp/playlist.m3u8",
       "news_url": "http://x977.visir.is/appsupport-frettir-xid",
-      "top_songs_url": "http://x977.visir.is/appsupport-topplisti-xid"
+      "top_songs_url": "http://x977.visir.is/appsupport-topplisti-xid",
+      "podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     }
   ]
 }
