@@ -1,10 +1,14 @@
 {
+  "cache_timeout_news": 3600,
+  "cache_timeout_podcasts": 43200,
+  "cache_timeout_topsongs": 604800,
   "data_sync_delay": 86400,
   "data_sync_retry_limit": 3,
   "facebook_access_token": "315131545257847|W99_BiINkC11ptIz4nSuqoshVzE",
   "home_scroller_durations": [8, 3, 8],
   "restart_playback_delay": 7200,
   "schedule_url": "http://vefutvarp.visir.is/dagskra-json",
+  "startup_ad_url": "",
   "stations": [
     {
       "uid":"a285f8d7-0530-455a-bd49-06f0ae53a4a6",
