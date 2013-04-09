@@ -115,27 +115,6 @@
       "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
       "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
       "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
-    },
-     {
-      "uid":"a285f8d7-0530-455a-bd49-06f0ae53a4a6",
-      "name":"80s BYLGJAN",
-      "summary":"Bylgjan var stofnuð árið 1986 fyrst einkarekinna útvarpsstöðva og hóf útsendingar í gamla Osta- og smjörsöluhúsinu við Snorrabraut. Bylgjan hefur ávalt verið vinsælasta einkarekna útvarpsstöðin og síðustu ár vinsælasta útvarpsstöð landsins. Bylgjan er þekkt fyrir fjölbreytta og góða tónlist í bland við traustar fréttir, skemmtun og fróðleik. Markhópur Bylgjunnar samanstendur af körlum og konum á aldursbilinu 20-54 ára af öllu landinu. Bylgjan sendir út á 58 FM sendum um allt land, í sjónvarpi Símans og Vodafone, á bylgjan.is og í Út-appinu. Nánari upplýsingar um FM tíðnir er að finna á bylgjan.is.",
-      "email":"app@bylgjan.is",
-      "phone":"5671111",
-      "theme":{
-        "logo":"logo_fm989.png",
-        "menu_image":"logo_fm989_menu.png",
-        "primary_color":"#ce142b"
-      },
-      "twitter_id":"",
-      "url":"http://bylgjan.visir.is/",
-      "audio_url": "http://212.30.228.52:8080/80s.flv",
-      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=bylgjan",
-      "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan",
-      "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
-      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "news_podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     }
   ]
 }
