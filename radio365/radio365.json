@@ -137,7 +137,6 @@
       "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
       "news_podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     },
-    ,
      {
       "uid":"a285f8d7-0530-455a-bd49-06f0ae53a4a6",
       "name":"FM Extra",
@@ -159,7 +158,6 @@
       "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
       "news_podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
     },
-    ,
      {
       "uid":"a285f8d7-0530-455a-bd49-06f0ae53a4a6",
       "name":"Apparatid",
