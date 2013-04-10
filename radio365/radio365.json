@@ -9,7 +9,7 @@
   "restart_playback_delay": 7200,
   "schedule_url": "http://bylgjan.visir.is/appsupport-dagskra",
   "startup_ad_check_delay": 604800,
-  "startup_ad_url": "http://bylgjan.visir.is/VideoSplash?station=Gullbylgjan&width=%d&height=%d&platform=%@",
+  "startup_ad_url": "http://bylgjan.visir.is/VideoSplash?station=bb&width=%d&height=%d&platform=%@",
   "stations": [
     {
       "uid":"a285f8d7-0530-455a-bd49-06f0ae53a4a6",
