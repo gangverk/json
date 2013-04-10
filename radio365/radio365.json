@@ -28,9 +28,9 @@
       "metadata_url": "http://vefutvarp.visir.is/now-playing?st=bylgjan",
       "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan",
       "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
-      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "news_podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "news_podcasts_url": "http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d"
     },
     {
       "uid":"dc311586-fc21-4c11-a659-9640e0f6c814",
@@ -49,9 +49,9 @@
       "metadata_url": "http://vefutvarp.visir.is/now-playing?st=gullbylgjan",
       "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan",
       "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
-      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d"
     },
     {
       "uid":"2e9d01ff-c887-4015-86ed-08efc79783e3",
@@ -70,9 +70,9 @@
       "metadata_url": "http://vefutvarp.visir.is/now-playing?st=lettbylgjan",
       "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan",
       "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
-      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d"
     },
     {
       "uid":"8a9ed3f3-4457-4d07-9c67-393b3402ec29",
@@ -91,9 +91,9 @@
       "metadata_url": "http://vefutvarp.visir.is/now-playing?st=fm957",
       "news_url":"http://fm957.visir.is/appsupport-frettir-fm957",
       "top_songs_url":"http://fm957.visir.is/appsupport-topplisti-fm957",
-      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=12&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "news_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=12&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "news_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d"
     },
     {
       "uid":"d6070048-eba2-4a2f-81b9-e1156ee911c3",
@@ -112,9 +112,9 @@
       "metadata_url": "http://vefutvarp.visir.is/now-playing?st=xid",
       "news_url":"http://x977.visir.is/appsupport-frettir-xid",
       "top_songs_url":"http://x977.visir.is/appsupport-topplisti-xid",
-      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
-      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&channeltype=a&itemsPerPage=10&cachetime=60&mime=json"
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d"
     }
   ]
 }
