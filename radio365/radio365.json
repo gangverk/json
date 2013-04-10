@@ -7,7 +7,7 @@
   "facebook_access_token": "315131545257847|W99_BiINkC11ptIz4nSuqoshVzE",
   "home_scroller_durations": [8, 3, 8],
   "restart_playback_delay": 7200,
-  "schedule_url": "http://vefutvarp.visir.is/dagskra-json",
+  "schedule_url": "http://bylgjan.visir.is/appsupport-dagskra",
   "startup_ad_check_delay": 604800,
   "startup_ad_url": "http://bylgjan.visir.is/VideoSplash?station=Gullbylgjan&width=%d&height=%d&platform=%@",
   "stations": [
