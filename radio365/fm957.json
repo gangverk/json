@@ -35,13 +35,13 @@
     {
       "uid":"8a9ed3f3-4457-4d07-9c67-393b3402ec30",
       "name":"FMExtra",
-      "summary":"FM957 er tónlistarstöð unga fólksins. Stöðin leikur vinsælustu lögin í heiminum hverju sinni og slagorð stöðvarinnar til margra ára verið „Topp tónlistarstöðin“. FM957var sett á laggirnar árið 1989 og mikill fjöldi íslendinga hefur alist upp með stöðinni. Markhópur FM957 er 16-34 ára og stöðin sendir út á FM sendum víðsvegar um landið, í sjónvarpi Símanns og Vodafone, á FM957.is og í Út-appinu.",
+      "summary":"Besta og ferskasta bítið í bænum – Meira Hip Hop, meiri Dance, meira Dub Step og allir í fíling.",
       "email":"app@fm957.is",
       "phone":"5110957",
       "theme":{
-        "logo":"logo_fm957.png",
-        "menu_image":"logo_fm957_menu.png",
-        "primary_color":"#DBF2AA"
+        "logo":"logo_fmextra.png",
+        "menu_image":"logo_fmextra_menu.png",
+        "primary_color":"#7D2A8B"
       },
       "twitter_id":"FM_957",
       "url":"http://fm957.visir.is/",
@@ -119,13 +119,13 @@
     {
       "uid":"2e9d01ff-c887-4015-86ed-08efc79783e4",
       "name":"80s BYLGJAN",
-      "summary":"",
+      "summary":"Upplifðu þínar bestu stundir aftur með fjölbreyttri blöndu af vinsælustu lögum níunda áratugarins sem leikinn er allan sólahringinn.",
       "email":"app@bylgjan.is",
       "phone":"",
       "theme":{
-        "logo":"logo_fm967.png",
-        "menu_image":"logo_fm967_menu.png",
-        "primary_color":"#E01B6A"
+        "logo":"logo_80sbylgjan.png",
+        "menu_image":"logo_80sbylgjan_menu.png",
+        "primary_color":"#7D2A8B"
       },
       "twitter_id":"",
       "url":"http://bylgjan.visir.is/",
@@ -161,13 +161,13 @@
     {
       "uid":"d6070048-eba2-4a2f-81b9-e1156ee911c4",
       "name":"Apparatið",
-      "summary":"X977 er framsæknasta útvarpsstöð landsins og hefur verið það frá stofnun. Stöðin er oft kölluð „musteri rokksins“. Meðal þeirra fjölmörgu snillinga sem hafa alið manninn á Xinu í gegnum árin má nefna Jón Gnarr borgarstjóri, Sigurjón Kjartansson handritahöfundur, Sigmar Guðmundsson ritstjóri Kastljóss, Gunnar Sigurðsson, Þorsteinn Hreggviðsson (Þossi), Jón Atli Jónasson leikskáld, Hans Steinar Bjarnason íþróttafréttamaður ásamt þeim Frosta og Mána sem enn starfa við stöðina. Markhópur X977 er ungt og framsækið fólk. X977 sendir út á þremur FM sendum, í sjónvarpi Símanns og Vodafone, á X977.is og í Út-appinu.",
+      "summary":"Apparatið leggur áherslu á að kynna framsækna nýja og nýlega íslenska tónlist með eldra í bland. Einnig mun Apparatið vera atburðatengd og taka þá sérstaklega fyrir. Þarna verður hægt að hlusta á nýjar útgáfur í heild sinni ásamt að sérstakir tónlistarþemar verða reglulega í boði.",
       "email":"app@x977.is",
       "phone":"5170977",
       "theme":{
-        "logo":"logo_x977.png",
-        "menu_image":"logo_x977_menu.png",
-        "primary_color":"#BABA50"
+        "logo":"logo_apparatid.png",
+        "menu_image":"logo_apparatid_menu.png",
+        "primary_color":"#E6A838"
       },
       "twitter_id":"xid977",
       "url":"http://x977.visir.is/",
