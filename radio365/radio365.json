@@ -5,7 +5,7 @@
   "data_sync_delay": 86400,
   "data_sync_retry_limit": 3,
   "facebook_access_token": "315131545257847|W99_BiINkC11ptIz4nSuqoshVzE",
-  "home_scroller_durations": [8, 3, 8],
+  "home_scroller_durations": [10, 3, 3],
   "restart_playback_delay": 7200,
   "schedule_url": "http://bylgjan.visir.is/appsupport-dagskra",
   "startup_ad_check_delay": 604800,
