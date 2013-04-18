@@ -1,46 +1,100 @@
 {
-	"layout": "/vod/layouts/moviesHomeLayout",
+	"layout": "movies-home-layout.json",
 	"backdrop":"/processed/backdrops?width={width}&height={height}",
 	"featured": [{
-		"type": "content",
+		"category":true,
+		"title": "Vinsælast",
+		"url": "movies-home-vinsaelast-structure.json",
 		"item": {
-			"title":"Kill bill",
-			"imageUrl":"/processed/bla/124123.jpg",
-			"trailer":"true",
-			"movie":"true"
-		},
-		"action":{
-			"type":"menu",
-			"target":"/vod/menu/popular"
+			"type":"movie",
+			"id": "7471017087220541053",
+			"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
 		}
 	},{
-		"type": "content",
+		"category":true,
+		"title": "Nýjar Myndir",
+		"url": "movies-home-vinsaelast-structure.json",
 		"item": {
-			"title":"Argo",
-			"imageUrl":"/processed/bla/99999.jpg",
-			"trailer":"false",
-			"movie":"true"
-		},
-		"action":{
-			"type":"menu",
-			"target":"/vod/menu/newContent"
+			"type":"movie",
+			"id": "3290224113135229366",
+			"imageUrl":"svp-vod7360-cover_1-1-i.jpg"
+		}
+	},{
+		"category":true,
+		"title": "Ævintýramyndir",
+		"url": "movies-home-vinsaelast-structure.json",
+		"item": {
+			"type":"movie",
+			"id": "5983927433481852936",
+			"imageUrl":"svp-vod7274-cover_1-1-i.jpg"
+		}
+	},{
+		"category":true,
+		"title": "Nýkomnar eldri",
+		"url": "movies-home-vinsaelast-structure.json",
+		"item": {
+			"type":"movie",
+			"id": "354174651075058601",
+			"imageUrl":"svp-vod7295-cover_1-1-i.jpg"
+		}
+	},{
+		"category":true,
+		"title": "Rómans",
+		"url": "movies-home-vinsaelast-structure.json",
+		"item": {
+			"type":"movie",
+			"id": "2041061374451326370",
+			"imageUrl":"svp-vod7260-cover_1-1-i.jpg"
 		}
 	}],
 	"interesting": {
 		"type":"url",
 		"ref":"/rest-api/customer/43/vod/interestingMovies"
 	},
-	"interesting": [{
-		"type":"content",
+	"allcategories": [{
+		"category":true,
+		"title": "Vinsælast",
+		"url": "movies-home-vinsaelast-structure.json",
 		"item": {
-			"title":"Scary Movie",
-			"imageUrl":"/processed/bla/7373737.jpg",
-			"trailer": "false",
-			"movie":"false"
-		},
-		"target":{
-			"type":"vodDetails",
-			"ref":"/vod/details/87387347834"
+			"type":"movie",
+			"id": "7471017087220541053",
+			"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
+		}
+	},{
+		"category":true,
+		"title": "Nýjar Myndir",
+		"url": "movies-home-vinsaelast-structure.json",
+		"item": {
+			"type":"movie",
+			"id": "3290224113135229366",
+			"imageUrl":"svp-vod7360-cover_1-1-i.jpg"
+		}
+	},{
+		"category":true,
+		"title": "Ævintýramyndir",
+		"url": "movies-home-vinsaelast-structure.json",
+		"item": {
+			"type":"movie",
+			"id": "5983927433481852936",
+			"imageUrl":"svp-vod7274-cover_1-1-i.jpg"
+		}
+	},{
+		"category":true,
+		"title": "Nýkomnar eldri",
+		"url": "movies-home-vinsaelast-structure.json",
+		"item": {
+			"type":"movie",
+			"id": "354174651075058601",
+			"imageUrl":"svp-vod7295-cover_1-1-i.jpg"
+		}
+	},{
+		"category":true,
+		"title": "Rómans",
+		"url": "movies-home-vinsaelast-structure.json",
+		"item": {
+			"type":"movie",
+			"id": "2041061374451326370",
+			"imageUrl":"svp-vod7260-cover_1-1-i.jpg"
 		}
 	}]
 }
