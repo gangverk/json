@@ -27,7 +27,7 @@
 		"horizontal-spacing":0.003,
 		"vertical-spacing":0.003
 	},
-	"all": {
+	"allcategories": {
 		"x":1.1,
 		"y":0.0,
 		"width":0.2,
