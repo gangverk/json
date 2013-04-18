@@ -1,44 +1,40 @@
 {
-	"screens": [
-		{
-			"featured": {
-				"x":0,
-				"y":0,
-				"width":200,
-				"height":303,
-				"cols":5,
-				"rows":1,
-				"horizontal-spacing":17,
-				"vertical-spacing":0
-			},
-			"InterestingMoviesLabel": {
-				"label":"Áhugaverðar myndir fyrir þig",
-				"x":0,
-				"y":320,
-				"width":1070
-			},
-			"interesting": {
-				"x":0,
-				"y":354,
-				"width":124,
-				"height":191,
-				"cols":8,
-				"rows":1,
-				"horizontal-spacing":11,
-				"vertical-spacing":0
-			}
-		},
-		{
-			"interesting": {
-				"x":0,
-				"y":0,
-				"width":169,
-				"height":257,
-				"cols":6,
-				"rows":2,
-				"horizontal-spacing":11,
-				"vertical-spacing":30
-			}
-		}
-	]
+	"featured": {
+		"type":"content",
+		"x":0,
+		"y":0,
+		"width":0.2,
+		"height":0.5,
+		"cols":5,
+		"rows":1,
+		"horizontal-spacing":0.003,
+		"vertical-spacing":0.003
+	},
+	"InterestingMoviesLabel": {
+		"type":"label",
+		"label":"Áhugaverðar myndir fyrir þig",
+		"x":0,
+		"y":0.55,
+		"width":0.1
+	},
+	"interesting": {
+		"x":0,
+		"y":0.6,
+		"width":0.2,
+		"height":0.3,
+		"cols":8,
+		"rows":1,
+		"horizontal-spacing":0.003,
+		"vertical-spacing":0.003
+	},
+	"all": {
+		"x":1.1,
+		"y":0.0,
+		"width":0.2,
+		"height":0.45,
+		"cols":8,
+		"rows":2,
+		"horizontal-spacing":0.003,
+		"vertical-spacing":0.003
+	}
 }
