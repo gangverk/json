@@ -1,7 +1,9 @@
 {
 	"layout": "movies-home-layout.json",
 	"backdrop":"/processed/backdrops?width={width}&height={height}",
-	"featured": [{
+	"featured": {
+		"type":"list",
+		"items":[{
 		"category":true,
 		"title": "Vinsælast",
 		"url": "movies-home-vinsaelast-structure.json",
@@ -10,91 +12,95 @@
 			"id": "7471017087220541053",
 			"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
 		}
-	},{
-		"category":true,
-		"title": "Nýjar Myndir",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "3290224113135229366",
-			"imageUrl":"svp-vod7360-cover_1-1-i.jpg"
-		}
-	},{
-		"category":true,
-		"title": "Ævintýramyndir",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "5983927433481852936",
-			"imageUrl":"svp-vod7274-cover_1-1-i.jpg"
-		}
-	},{
-		"category":true,
-		"title": "Nýkomnar eldri",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "354174651075058601",
-			"imageUrl":"svp-vod7295-cover_1-1-i.jpg"
-		}
-	},{
-		"category":true,
-		"title": "Rómans",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "2041061374451326370",
-			"imageUrl":"svp-vod7260-cover_1-1-i.jpg"
-		}
-	}],
+		},{
+			"category":true,
+			"title": "Nýjar Myndir",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "3290224113135229366",
+				"imageUrl":"svp-vod7360-cover_1-1-i.jpg"
+			}
+		},{
+			"category":true,
+			"title": "Ævintýramyndir",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "5983927433481852936",
+				"imageUrl":"svp-vod7274-cover_1-1-i.jpg"
+			}
+		},{
+			"category":true,
+			"title": "Nýkomnar eldri",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "354174651075058601",
+				"imageUrl":"svp-vod7295-cover_1-1-i.jpg"
+			}
+		},{
+			"category":true,
+			"title": "Rómans",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "2041061374451326370",
+				"imageUrl":"svp-vod7260-cover_1-1-i.jpg"
+			}
+		}]
+	},
 	"interesting": {
 		"type":"url",
 		"ref":"/rest-api/customer/43/vod/interestingMovies"
 	},
-	"allcategories": [{
-		"category":true,
-		"title": "Vinsælast",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "7471017087220541053",
-			"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
-		}
-	},{
-		"category":true,
-		"title": "Nýjar Myndir",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "3290224113135229366",
-			"imageUrl":"svp-vod7360-cover_1-1-i.jpg"
-		}
-	},{
-		"category":true,
-		"title": "Ævintýramyndir",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "5983927433481852936",
-			"imageUrl":"svp-vod7274-cover_1-1-i.jpg"
-		}
-	},{
-		"category":true,
-		"title": "Nýkomnar eldri",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "354174651075058601",
-			"imageUrl":"svp-vod7295-cover_1-1-i.jpg"
-		}
-	},{
-		"category":true,
-		"title": "Rómans",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
-			"type":"movie",
-			"id": "2041061374451326370",
-			"imageUrl":"svp-vod7260-cover_1-1-i.jpg"
-		}
-	}]
+	"allcategories": {
+		"type":"list",
+		"items":[{
+			"category":true,
+			"title": "Vinsælast",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "7471017087220541053",
+				"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
+			}
+		},{
+			"category":true,
+			"title": "Nýjar Myndir",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "3290224113135229366",
+				"imageUrl":"svp-vod7360-cover_1-1-i.jpg"
+			}
+		},{
+			"category":true,
+			"title": "Ævintýramyndir",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "5983927433481852936",
+				"imageUrl":"svp-vod7274-cover_1-1-i.jpg"
+			}
+		},{
+			"category":true,
+			"title": "Nýkomnar eldri",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "354174651075058601",
+				"imageUrl":"svp-vod7295-cover_1-1-i.jpg"
+			}
+		},{
+			"category":true,
+			"title": "Rómans",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
+				"type":"movie",
+				"id": "2041061374451326370",
+				"imageUrl":"svp-vod7260-cover_1-1-i.jpg"
+			}
+		}]
+	}
 }
