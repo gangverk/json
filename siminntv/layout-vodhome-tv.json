@@ -2,26 +2,29 @@
 	"screens": [
 		{
 			"featured": {
+				"type":"grid",
 				"x":0,
-				"y":0,
+				"y":7,
 				"width":200,
-				"height":303,
+				"height":296,
 				"cols":5,
 				"rows":1,
-				"horizontal-spacing":17,
+				"horizontal-spacing":18,
 				"vertical-spacing":0
 			},
-			"InterestingMoviesLabel": {
-				"label":"Áhugaverðar myndir fyrir þig",
+			"interestingLabel": {
+				"type": "label",
+				"text":"Áhugavert fyrir þig",
 				"x":0,
 				"y":320,
 				"width":1070
 			},
 			"interesting": {
+				"type": "grid",
 				"x":0,
-				"y":354,
+				"y":360,
 				"width":124,
-				"height":191,
+				"height":184,
 				"cols":8,
 				"rows":1,
 				"horizontal-spacing":11,
@@ -29,7 +32,8 @@
 			}
 		},
 		{
-			"interesting": {
+			"allcategories": {
+				"type": "grid",
 				"x":0,
 				"y":0,
 				"width":169,
