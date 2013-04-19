@@ -18,6 +18,7 @@
 		"width":1.5
 	},
 	"interesting": {
+		"type":"content",
 		"x":0,
 		"y":0.6,
 		"width":0.2,
@@ -28,6 +29,7 @@
 		"vertical-spacing":0.003
 	},
 	"allcategories": {
+		"type":"content",
 		"x":1.6,
 		"y":0.0,
 		"width":0.3,
