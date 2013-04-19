@@ -1,5 +1,5 @@
 {
-	"layout": "hhttps://raw.github.com/gangverk/json/master/siminntv/layout-vodgenre-mobile.json",
+	"layout": "https://raw.github.com/gangverk/json/master/siminntv/layout-vodgenre-mobile.json",
 	"backdrop":"/processed/backdrops?width={width}&height={height}",
 	"featured": {
 		"type":"list",
