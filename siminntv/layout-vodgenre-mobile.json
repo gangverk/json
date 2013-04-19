@@ -1,0 +1,43 @@
+{
+	"featured": {
+		"type":"content",
+		"x":0,
+		"y":0,
+		"width":0.6,
+		"height":1.0,
+		"cols":4,
+		"rows":1,
+		"horizontal-spacing":0.003,
+		"vertical-spacing":0.003
+	},
+	"InterestingMoviesLabel": {
+		"type":"label",
+		"label":"Áhugavert eða þannig",
+		"x":0,
+		"y":0.5,
+		"width":1.5,
+		"height":0.1
+	},
+	"interesting": {
+		"type":"content",
+		"x":0,
+		"y":0.6,
+		"width":0.2,
+		"height":0.3,
+		"cols":8,
+		"rows":1,
+		"horizontal-spacing":0.003,
+		"vertical-spacing":0.003
+	},
+	"allcategories": {
+		"type":"content",
+		"x":1.6,
+		"y":0.0,
+		"width":0.275,
+		"height":0.4,
+		"cols":8,
+		"rows":2,
+		"horizontal-spacing":0.003,
+		"vertical-spacing":0.003
+	}
+}
