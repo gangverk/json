@@ -4,7 +4,7 @@
 		"x":0,
 		"y":0,
 		"width":0.3,
-		"height":0.5,
+		"height":0.7,
 		"cols":5,
 		"rows":1,
 		"horizontal-spacing":0.003,
@@ -30,7 +30,7 @@
 	"allcategories": {
 		"x":1.6,
 		"y":0.0,
-		"width":0.2,
+		"width":0.3,
 		"height":0.45,
 		"cols":8,
 		"rows":2,
