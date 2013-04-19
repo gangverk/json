@@ -14,7 +14,7 @@
 		"type":"label",
 		"label":"Áhugaverðar myndir fyrir þig",
 		"x":0,
-		"y":0.55,
+		"y":0.65,
 		"width":1.5
 	},
 	"interesting": {
