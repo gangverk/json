@@ -4,7 +4,7 @@
 	"featured": {
 		"type":"list",
 		"items":[{
-		"category":true,
+		"category":false,
 		"title": "Vinsælast",
 		"url": "movies-home-vinsaelast-structure.json",
 		"item": {
@@ -13,7 +13,6 @@
 			"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
 		}
 		},{
-			"category":true,
 			"title": "Nýjar Myndir",
 			"url": "movies-home-vinsaelast-structure.json",
 			"item": {
