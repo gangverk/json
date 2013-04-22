@@ -4,13 +4,13 @@
 	"featured": {
 		"type":"list",
 		"items":[{
-		"category":true,
-		"title": "Yay",
-		"url": "movies-home-vinsaelast-structure.json",
-		"item": {
+			"category":true,
+			"title": "Yay",
+			"url": "movies-home-vinsaelast-structure.json",
+			"item": {
 			"type":"movie",
-			"id": "7471017087220541053",
-			"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
+				"id": "7471017087220541053",
+				"imageUrl":"svp-vod7325-cover_1-1-i.jpg"
 		}
 		},{
 			"category":true,
@@ -29,15 +29,6 @@
 				"type":"movie",
 				"id": "5983927433481852936",
 				"imageUrl":"svp-vod7274-cover_1-1-i.jpg"
-			}
-		},{
-			"category":true,
-			"title": "Yowza",
-			"url": "movies-home-vinsaelast-structure.json",
-			"item": {
-				"type":"movie",
-				"id": "354174651075058601",
-				"imageUrl":"svp-vod7295-cover_1-1-i.jpg"
 			}
 		}
 		]
