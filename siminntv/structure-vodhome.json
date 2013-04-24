@@ -1,5 +1,5 @@
 {
-	"layout": "movies-home-layout.json",
+	"layout": "layout-vodhome",
 	"backdrop":"/processed/backdrops?width={width}&height={height}",
 	"featured": {
 		"type":"list",
