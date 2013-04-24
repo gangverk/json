@@ -1,43 +1,48 @@
 {
-	"featured": {
-		"type":"content",
-		"x":0,
-		"y":0,
-		"width":0.3,
-		"height":0.5,
-		"cols":5,
-		"rows":1,
-		"horizontal-spacing":0.003,
-		"vertical-spacing":0.003
-	},
-	"InterestingMoviesLabel": {
-		"type":"label",
-		"label":"Áhugaverðar myndir fyrir þig",
-		"x":0,
-		"y":0.5,
-		"width":1.5,
-		"height":0.1
-	},
-	"interesting": {
-		"type":"content",
-		"x":0,
-		"y":0.6,
-		"width":0.2,
-		"height":0.3,
-		"cols":8,
-		"rows":1,
-		"horizontal-spacing":0.003,
-		"vertical-spacing":0.003
-	},
-	"allcategories": {
-		"type":"content",
-		"x":1.6,
-		"y":0.0,
-		"width":0.275,
-		"height":0.4,
-		"cols":8,
-		"rows":2,
-		"horizontal-spacing":0.003,
-		"vertical-spacing":0.003
-	}
+    "screens": [
+        {
+            "featured": {
+                "cols": 5,
+                "height": 0.5441176470588235,
+                "horizontal-spacing": 0.016822429906542057,
+                "rows": 1,
+                "type": "grid",
+                "vertical-spacing": 0.0,
+                "width": 0.18691588785046728,
+                "x": 0.0,
+                "y": 0.012867647058823529
+            },
+            "interesting": {
+                "cols": 8,
+                "height": 0.3382352941176471,
+                "horizontal-spacing": 0.010280373831775701,
+                "rows": 1,
+                "type": "grid",
+                "vertical-spacing": 0.0,
+                "width": 0.11588785046728972,
+                "x": 0.0,
+                "y": 0.6617647058823529
+            },
+            "interestingLabel": {
+                "text": "\u00c1hugavert fyrir \u00feig",
+                "type": "label",
+                "width": 1.0,
+                "x": 0.0,
+                "y": 0.5882352941176471
+            }
+        },
+        {
+            "allcategories": {
+                "cols": 6,
+                "height": 0.4724264705882353,
+                "horizontal-spacing": 0.010280373831775701,
+                "rows": 2,
+                "type": "grid",
+                "vertical-spacing": 0.05514705882352941,
+                "width": 0.15794392523364487,
+                "x": 0.0,
+                "y": 0.0
+            }
+        }
+    ]
 }

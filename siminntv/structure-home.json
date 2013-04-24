@@ -1,5 +1,5 @@
 {
-  "layout": "home-layout.json",
+  "layout": "layout-home",
 	"backdrop":"/processed/backdrops?width={width}&height={height}",
 	"tv": {
 		"type":"item",
