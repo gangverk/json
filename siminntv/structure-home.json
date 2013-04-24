@@ -15,8 +15,8 @@
 	"ad": {
 		"type":"item",
 		"category":false,
-		"title":"Ljósnetið á 53 nýja staði",
-		"url":"",
+		"title":"Bla bla",
+		"url":"http://10.16.2.250:7070/rest-api/vod/menu/root",
 		"item": {
 			"type":"movie",
 			"id":"5983927433481852936",
