@@ -7,12 +7,9 @@ if len(sys.argv) == 1:
 
 source = sys.argv[1]
 
-origin_width = 1070
+origin_height = 544
 if len(sys.argv) > 2:
 	origin_width = sys.argv[2]
-origin_height = 544
-if len(sys.argv) > 3:
-	origin_width = sys.argv[3]
 
 
 xparams = set(["width","x","horizontal-spacing"])
@@ -28,7 +25,7 @@ def traverse(node):
 		if k in yparams:
 			node[k] = float(v)/float(origin_height)
 		elif k in xparams:
-			node[k] = float(v)/float(origin_width)
+			node[k] = float(v)/float(origin_height)
 		elif isinstance(v,dict):
 			traverse(v)
 		elif isinstance(v,list):
