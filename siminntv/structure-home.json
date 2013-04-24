@@ -27,7 +27,7 @@
 		"type":"item",
 		"category":true,
 		"title":"SkjárBíó kvikmyndir",
-		"url":"",
+		"url":"https://raw.github.com/gangverk/json/master/siminntv/structure-vodhome.json",
 		"item": {
 			"type":"movie",
 			"id":"5983927433481852936",
