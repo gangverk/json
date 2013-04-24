@@ -1,0 +1,18 @@
+{
+                "screens": [
+                                {
+                                                "movies": {
+                                                                "type": "grid-repeater",
+                                                                "x":0,
+                                                                "y":7,
+                                                                "width":169,
+                                                                "height":257,
+                                                                "cols":6,
+                                                                "rows":2,
+                                                                "horizontal-spacing":11,
+                                                                "vertical-spacing":23
+                                                }
+                                }
+                ]
+}
+ 
