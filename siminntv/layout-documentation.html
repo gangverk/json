@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Layout documentation</title>
+	<style>
+	body {
+		font-family:arial, sans-serif;
+		margin:30px 50px 30px 50px;
+	}
+	h1 {
+		font-size:60px;
+		color:#333;
+		text-transform: uppercase;
+	}
+	h2 {
+		color:#666;
+		font-size:40px;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-size:40px;
+		text-transform: uppercase;
+		margin:0;
+		border-bottom:5px solid #ccc;
+		font-weight:lighter;
+		color:#555;
+	}
+
+	.section {
+		background-color:#efefef;
+		padding:5px 20px 5px 20px;
+		margin-bottom:50px;
+	}
+
+	pre {
+		font-size:16px;
+		background-color:#fff;
+		border:2px solid #ccc;
+		padding:10px;
+	}
+	</style>
+</head>
+<body>
+
+	<h1>Layout documentation</h1>
+
+
+	<h2>Element types</h2>
+
+
+	<h3>Box</h3>
+	<div class="section">
+		<p>The box element is the most important. It defines a singular box placeholder to render. Example:</p>
+		<pre>
+{
+	"type":"box",
+	"field":"skjarbio",
+	"x":500,
+	"y":0,
+	"width":270,
+	"height":400
+}
+		</pre>
+		<p>This would render a box in 270x400 pixels in size at position (500,0), and populate it using the "skjarbio" data.</p>
+	</div>
+
+
+	<h3>Grid</h3>
+	<div class="section">
+	<p>Use a grid to render boxes as a grid, in an cols x rows arrangement. It can display a finite number of elements or repeat itself to display more.</p>
+	<p>Example finite grid would populate with data from "goodMovies" as a 5x2 grid at position (0,400) where each box is of 200x100 in size, with 10 pixels separation horizontally and 5 pixels separation vertically between all boxes:</p>
+	<pre>
+{
+	"type": "grid",
+	"field":"goodMovies",
+	"x":0,
+	"y":400,
+	"width":270,
+	"height":400,
+	"cols":5,
+	"rows":2,
+	"horizontal-spacing":10,
+	"vertical-spacing":5
+}
+	</pre>
+	<p>In a 5x2 grid there is enough room for 10 boxes, but if the "goodMovies" data is less than 10 then it would stop rendering. If "goodMovies" data has more than 10 items then the remainder would be ignored and not rendered.</p>
+
+	<p>A grid can also be used to populate large amounts of data by adding the repeat attribute.</p>
+	<pre>
+{
+	"type": "grid",
+	"field":"allMovies",
+	"x":0,
+	"y":400,
+	"width":270,
+	"height":400,
+	"cols":5, // if repeat=true then for devices this should be considered cols=1
+	"rows":2,
+	"horizontal-spacing":10,
+	"vertical-spacing":5,
+	"offset":10,
+	"repeat":true,
+	"max-repeat":100
+}
+	</pre>
+
+	<p>repeat is by default false, but if true then it should expand the grid to populate the "allMovies" structure list.</p>
+	<p>max-repeat is by default unlimited, but can set a maximum number of times it will repeat the grid pattern (1x2 x 100 = 200 boxes).</p>
+	<p>offset is optional, and defines at what item we wish to start rendering.</p>
+
+	</div>
+
+
+	<h3>Rectangle</h3>
+	<div class="section">
+		<p>Used to render a color filled rectangle, example:</p>
+		<pre>
+{
+	"type":"rectangle",
+	"x":0,
+	"y":112,
+	"width":1070,
+	"height":3,
+	"color":"#0e6a9a"
+}
+		</pre>
+	</div>
+
+
+	<h3>Text</h3>
+	<div class="section">
+		<p>Used to display text using a basic templating solution. Example:</p>
+		<pre>
+{
+	"type":"text",
+	"text":"Verð {price} kr.",
+	"x":0,
+	"y":112,
+	"width":500,
+	"height":175,
+	"size":22,
+	"color":"#ff0000"
+}
+		</pre>
+		<p>This would display the price as "Verð 300 kr." in red.</p>
+		<p>Width and height is primarily used to define a box (max-area) to encapsulate long text, such as description, which requires wrapping and possibly culling.</p>
+		<p>Color is simply a string value which can be of any format, e.g. "#ff0000" or "rgb(255,0,0,0)" or "red". For touchscreen devices one type should suffice, but alpha channel would be needed, e.g. "rgba(255,0,0,0.5)" 50% opacity of red.</p>
+		<p>Size defines the font size of the title text.</p>
+	</div>
+
+
+
+	<h3>Text-array</h3>
+	<div class="section">
+		<p>Used to join together a text array using a delimiter. Example:</p>
+		<pre>
+{
+	"type":"text-array",
+	"delimiter":", ",
+	"field":"actors",
+	"x":0,
+	"y":324,
+	"width":1070,
+	"height":175,
+	"size":20,
+	"color":"#ff0000"
+}
+		</pre>
+		<p>Would inline together a list of actors as "John, Jack, Joe".</p>
+		<p>Otherwise it behaves similar to the text element, with similar attributes, such as size, color, width and height to encapsulate long text.</p>
+	</div>	
+
+
+
+	<h3>Image</h3>
+	<div class="section">
+		<p>Used to display an image using a basic templating solution. Example of displaying a PG image from an integer pg level "12":</p>
+		<pre>
+{
+	"type":"image",
+	"url":"http://where.is/my/pgicons/{pg}.png",
+	"width":100,
+	"height":100,
+	"x":500,
+	"y":0
+}
+		</pre>
+	</div>
+
+
+
+
+	<h3>Button</h3>
+	<div class="section">
+		<p>Used to display a button, example:</p>
+		<pre>
+{
+	"type":"button",
+	"text":"Order at price: {price} kr.",
+	"width":220,
+	"height":48,
+	"action":"ORDER",
+	"color":"#0e6a9a",
+	"condition":"PLAY_AVAILABLE",
+	"ignoreAsFirst":true
+}
+		</pre>
+		<p>Condition is optional, and tells the GUI to execute conditional checks to see if the button should be displayed.</p>
+		<p>Condition can be multiple, such as "PLAY_AVAILABLE,NEVER_RENTED".</p>
+		<p>Action defines a GUI action event that occurs when the button is pressed.</p>
+	</div>
+
+
+	<h3>(Button) list</h3>
+	<div class="section">
+		<p>Used to display multiple buttons together whenever the available buttons are dynamic, that some of the buttons may appear or not, example:</p>
+		<pre>
+{
+	"type":"list",
+	"direction":"horizontal",
+	"x":0,
+	"y":300,
+	"horizontal-spacing":10,
+	"elements": [{
+			"type":"button",
+			"text":"Order at price: {price} kr.",
+			"width":220,
+			"height":48,
+			"action":"ORDER",
+			"color":"#0e6a9a",
+			"condition":"PLAY_AVAILABLE"
+		},
+		{
+			"type":"button",
+			"text":"Resume from previous position",
+			"width":220,
+			"height":48,
+			"action":"RESUME",
+			"color":"#0e6a9a",
+			"condition":"RESUME_AVAILABLE"
+		},
+		{
+			"type":"button",
+			"text":"Play trailer",
+			"width":200,
+			"height":48,
+			"condition":"TRAILER_AVAILABLE",
+			"action":"PLAY_TRAILER",
+		},
+		{
+			"type":"button",
+			"text":"Add to favorites",
+			"width":200,
+			"height":48,
+			"action":"BOOKMARK"
+		}]
+}
+		</pre>
+		<p>Direction can be either "horizontal" or "vertical".</p>
+		<p>Horizontal-spacing is only used if direction is horizontal, and vertical-spacing is only used if direction is vertical.</p>
+		<p>If certain buttons fail their condition checks, they are not displayed and the next button in the list takes their place.</p>
+	</div>
+</body>
+</html>
