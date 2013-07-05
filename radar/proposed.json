@@ -28,7 +28,7 @@
       "collections": [
         {
           "key": "collection:subcollection1",
-          "name": "Subcollection 1",
+          "name": "Sub 1",
           "showfeeds": 1,
           "feeds": [
             "feed:mbl:smartland",
@@ -38,7 +38,7 @@
         },
         {
           "key": "collection:subcollection2",
-          "name": "Subcollection 2",
+          "name": "Sub 2",
           "showfeeds": 1,
           "feeds": [
             "feed:mbl:smartland",
@@ -54,7 +54,7 @@
       "collections": [
         {
           "key": "collection:subcollection3",
-          "name": "Subcollection 3",
+          "name": "Sub 3",
           "showfeeds": 0,
           "feeds": [
             "feed:mbl:smartland",
@@ -64,7 +64,7 @@
         },
         {
           "key": "collection:subcollection4",
-          "name": "Subcollection 4",
+          "name": "Sub 4",
           "showfeeds": 0,
           "feeds": [
             "feed:mbl:smartland",
