@@ -7,22 +7,22 @@
       "feed:ruv:innlent"
     ]
   },
-  "feeds": [
-    {
+  "feeds": {
+    "feed:kvikmyndir": {
       "key": "feed:kvikmyndir",
       "url": "http:\/\/kvikmyndir.is\/rss\/",
       "interval": "30",
       "name": "kvikmyndir.is",
       "display": 1
     },
-    {
+    "feed:fridrikjonsson": {
       "key": "feed:fridrikjonsson",
       "url": "http:\/\/blog.pressan.is\/fridrik\/feed\/",
       "interval": "5",
       "name": "Fri\u00f0rik J\u00f3nsson",
       "display": 0
     }
-  ],
+  },
   "collections": [
     {
       "key": "collection:lifsstill",
