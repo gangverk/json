@@ -8,14 +8,14 @@
     ]
   },
   "feeds": {
-    "feed:kvikmyndir": {
-      "key": "feed:kvikmyndir",
+    "feed:mbl:smartland": {
+      "key": "feed:mbl:smartland",
       "url": "http:\/\/kvikmyndir.is\/rss\/",
       "interval": "30",
       "name": "kvikmyndir.is"
     },
-    "feed:fridrikjonsson": {
-      "key": "feed:fridrikjonsson",
+    "feed:freisting": {
+      "key": "feed:freisting",
       "url": "http:\/\/blog.pressan.is\/fridrik\/feed\/",
       "interval": "5",
       "name": "Fri\u00f0rik J\u00f3nsson"
@@ -32,8 +32,7 @@
           "showfeeds": 1,
           "feeds": [
             "feed:mbl:smartland",
-            "feed:freisting",
-            "feed:foldarskart"
+            "feed:freisting"
           ]
         },
         {
@@ -42,8 +41,7 @@
           "showfeeds": 1,
           "feeds": [
             "feed:mbl:smartland",
-            "feed:freisting",
-            "feed:foldarskart"
+            "feed:freisting"
           ]
         }
       ]
@@ -58,8 +56,7 @@
           "showfeeds": 0,
           "feeds": [
             "feed:mbl:smartland",
-            "feed:freisting",
-            "feed:foldarskart"
+            "feed:freisting"
           ]
         },
         {
@@ -68,8 +65,7 @@
           "showfeeds": 0,
           "feeds": [
             "feed:mbl:smartland",
-            "feed:freisting",
-            "feed:foldarskart"
+            "feed:freisting"
           ]
         }
       ]
