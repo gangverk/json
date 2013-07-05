@@ -1,0 +1,80 @@
+{
+  "user": {
+    "key": "user:atlithorn",
+    "name": "atlithorn",
+    "feeds": [
+      "feed:dv",
+      "feed:ruv:innlent"
+    ]
+  },
+  "feeds": [
+    {
+      "key": "feed:kvikmyndir",
+      "url": "http:\/\/kvikmyndir.is\/rss\/",
+      "interval": "30",
+      "name": "kvikmyndir.is",
+      "display": 1
+    },
+    {
+      "key": "feed:fridrikjonsson",
+      "url": "http:\/\/blog.pressan.is\/fridrik\/feed\/",
+      "interval": "5",
+      "name": "Fri\u00f0rik J\u00f3nsson",
+      "display": 0
+    }
+  ],
+  "collections": [
+    {
+      "key": "collection:lifsstill",
+      "name": "L\u00edfsst\u00edll",
+      "collections": [
+        {
+          "key": "collection:subcollection1",
+          "name": "Subcollection 1",
+          "showfeeds": 1,
+          "feeds": [
+            "feed:mbl:smartland",
+            "feed:freisting",
+            "feed:foldarskart"
+          ]
+        },
+        {
+          "key": "collection:subcollection2",
+          "name": "Subcollection 2",
+          "showfeeds": 1,
+          "feeds": [
+            "feed:mbl:smartland",
+            "feed:freisting",
+            "feed:foldarskart"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "collection:bla",
+      "name": "Bla",
+      "collections": [
+        {
+          "key": "collection:subcollection3",
+          "name": "Subcollection 3",
+          "showfeeds": 0,
+          "feeds": [
+            "feed:mbl:smartland",
+            "feed:freisting",
+            "feed:foldarskart"
+          ]
+        },
+        {
+          "key": "collection:subcollection4",
+          "name": "Subcollection 4",
+          "showfeeds": 0,
+          "feeds": [
+            "feed:mbl:smartland",
+            "feed:freisting",
+            "feed:foldarskart"
+          ]
+        }
+      ]
+    }
+  ]
+}
