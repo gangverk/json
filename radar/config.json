@@ -1,6 +1,7 @@
 {
 	"pollInterval": 60,
 	"baseUrl": "http://bladid.gangverk.is",
+    "googleAnalyticsId": "UA-39247082-2",
     "fontHeaderRegular": "DroidSerif",
     "fontHeaderBold": "DroidSerif-Bold",
     "fontBodyRegular": "DroidSans",
