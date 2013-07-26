@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Actions and conditions documentation</title>
+	<style>
+	body {
+		font-family:arial, sans-serif;
+		margin:30px 50px 30px 50px;
+	}
+	h1 {
+		font-size:60px;
+		color:#333;
+		text-transform: uppercase;
+	}
+	h2 {
+		color:#666;
+		font-size:40px;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-size:40px;
+		text-transform: uppercase;
+		margin:0;
+		border-bottom:5px solid #ccc;
+		font-weight:lighter;
+		color:#555;
+	}
+
+	.section {
+		background-color:#efefef;
+		padding:5px 20px 5px 20px;
+		margin-bottom:50px;
+	}
+
+	pre {
+		font-size:16px;
+		background-color:#fff;
+		border:2px solid #ccc;
+		padding:10px;
+	}
+	</style>
+</head>
+<body>
+
+	<h1>Actions and conditions documentation</h1>
+
+
+	<h2>Actions</h2>
+	<p>The actions may have dependencies on their context, e.g. actions only make sense when they are executed in a certain context, such as PLAY_TRAILER action when a user is viewing details on a movie but does not make sense when user is viewing a mosaic of movies. The client has to ensure actions are performed in correct context states.</p>
+
+
+	<h3>PLAY_TRAILER</h3>
+	<div class="section">
+		<p>Create a playback for trailer and start playing.</p>
+		<p>This should use the id of the content being viewed to create a playback using the rest service, and launch the playback view using the returned ticket.</p>
+		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+	</div>
+
+	<h3>ORDER</h3>
+	<div class="section">
+		<p>Post an order for a content, create a playback and start playing.</p>
+		<p>Use the id of the content being viewed to create an order. After posting an order a playback must be created for that order. Once a playback is created the playback view can be launched using the returned ticket.</p>
+		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+	</div>
+
+	<h3>RESUME</h3>
+	<div class="section">
+		<p>Identical to "ORDER".</p>
+		<p>The only difference between "RESUME" and "ORDER" is that when launching the playback view it should start from the position returned from the returned playback creation.</p>
+		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+	</div>
+
+	<h3>RESTART</h3>
+	<div class="section">
+		<p>Identical to "ORDER".</p>
+		<p>The only difference is that it is explicit that the client should start playing from beginning.</p>
+		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+	</div>
+
+
+
+
+	<h2>Conditions</h2>
+	<p>Conditions are only used for button elements in a list.</p>
+	<p>For each button element in a list, a specified condition must be met in order for that button to be displayed. If it does not meet the condition then the next button in the list should take its place.</p>
+	<p>Conditional checks may depend on their viewing context, e.g. checking if movie is in current rentals only makes sense if the user is viewing the movie details.</p>
+
+	<h3>IN_CURRENT_RENTALS</h3>
+	<div class="section">
+		<p>This condition is met only if the content being viewed is in current rentals.</p>
+		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+	</div>
+
+	<h3>HAS_TRAILER</h3>
+	<div class="section">
+		<p>This condition is met only if the content has "trailer" field as true.</p>
+		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+	</div>
+
+	<h3>ORDERABLE</h3>
+	<div class="section">
+		<p>This condition is met only if the content is <b>not</b> in current rentals.</p>
+		<p>This condition may require further checks in the future.</p>
+		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+	</div>
+
+</body>
+</html>
