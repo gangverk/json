@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Actions and conditions documentation</title>
 	<style>
 	body {
@@ -55,6 +55,20 @@
 		<p>Create a playback for trailer and start playing.</p>
 		<p>This should use the id of the content being viewed to create a playback using the rest service, and launch the playback view using the returned ticket.</p>
 		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+
+		<h4>REST</h4>
+		<p>Create playback</p>
+		<pre>GET http://157.157.4.37/rest-api/vod/playback/ticket/{clientIpAddress}/{id}/trailer</pre>
+		<p>Example response:</p>
+		<pre>{
+"id": null,
+"orderId": null,
+"ipAddress": "0.0.0.0",
+"ticket": "rtsp://157.157.4.37:5016/3mhhaioj5ih1zbqmm2esd2igsznedzyi",
+"position": null,
+"viaccessContentId": null,
+"viaccessScrambled": null
+}</pre>		
 	</div>
 
 	<h3>ORDER</h3>
@@ -62,6 +76,44 @@
 		<p>Post an order for a content, create a playback and start playing.</p>
 		<p>Use the id of the content being viewed to create an order. After posting an order a playback must be created for that order. Once a playback is created the playback view can be launched using the returned ticket.</p>
 		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+
+		<h4>REST</h4>
+		<p>Post order (retrieve/create an order, it either creates a new one or returns an existing one).</p>
+		<pre>POST http://157.157.4.37/rest-api/orders
+{
+'customerId': {customerId},
+'contentId': {id},
+'mainAccount': false,
+'offerId': null,
+'macAddress': {clientMacAddress}
+}
+</pre>
+		<p>Example response:</p>
+		<pre>{
+"id":37447863,
+"contentId":"8175795652271047591",
+"customerId":43,
+"expires":1374978321666,
+"expiresDateString":"2013-07-28T02:25:21.666Z",
+"mainAccount":false,
+"offerId":null,
+"position":null,
+"macAddress":"00:1c:a8:ac:c3:df"
+}</pre>		
+	
+	<p>Using the "id" from the order response a playback can be created for that order:</p>
+	<pre>POST http://157.157.4.37//rest-api/orders/37447863/playback/{clientIpAddress}</pre>
+	<p>Example response:</p>
+	<pre>{
+"id":null,
+"orderId":37447863,
+"ipAddress":"0.0.0.0",
+"ticket":"rtsp://157.157.4.37:5006/3mhhaigi5ih1zbimm2emeyeisbomdcfg",
+"position":null,
+"viaccessContentId":null,
+"viaccessScrambled":null
+}</pre>
+	<p>By using the "ticket" url field an ticket id can be extracted "3mhhaigi5ih1zbimm2emeyeisbomdcfg" and used to launch playback with.</p>
 	</div>
 
 	<h3>RESUME</h3>
@@ -69,6 +121,9 @@
 		<p>Identical to "ORDER".</p>
 		<p>The only difference between "RESUME" and "ORDER" is that when launching the playback view it should start from the position returned from the returned playback creation.</p>
 		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+
+		<h4>REST</h4>
+		<p>Identical to "ORDER", the only difference is that playback position can be set using "position" field from the playback creation.</p>
 	</div>
 
 	<h3>RESTART</h3>
@@ -76,6 +131,9 @@
 		<p>Identical to "ORDER".</p>
 		<p>The only difference is that it is explicit that the client should start playing from beginning.</p>
 		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+
+		<h4>REST</h4>
+		<p>Identical to "ORDER".</p>
 	</div>
 
 
@@ -90,6 +148,40 @@
 	<div class="section">
 		<p>This condition is met only if the content being viewed is in current rentals.</p>
 		<p>Only performed when content details view is displayed. The "type" should be "movie" in the structure object.</p>
+
+		<h4>REST</h4>
+		<p>Current rentals can be retrieved for each customer:</p>
+		<pre>GET http://157.157.4.37:5505/rest-api/orders/active/by_customer/{customerId}</pre>
+		<p>Example response: (returns array of objects in current rentals)</p>
+		<pre>
+[
+{
+	"id":37447863,
+	"contentId":"8175795652271047591",
+	"customerId":43,
+	"expires":1374978321666,
+	"expiresDateString":"2013-07-28T02:25:21.666Z",
+	"mainAccount":null,
+	"offerId":null,
+	"position":0.0,
+	"macAddress":null
+},
+{
+	"id":37447647,
+	"contentId":"7471017087220541053",
+	"customerId":43,
+	"expires":1374977566171,
+	"expiresDateString":"2013-07-28T02:12:46.171Z",
+	"mainAccount":null,
+	"offerId":null,
+	"position":0.0,
+	"macAddress":null
+}
+]
+		</pre>
+
+		<p>By using the above reponse it can be tested whether a content with an id exists in the current rentals collection above (using the "contentId" field).</p>
+		<p>The returned objects also contain information about where the movie was stopped, and also for how long it will remain in current rentals.</p>
 	</div>
 
 	<h3>HAS_TRAILER</h3>
