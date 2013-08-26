@@ -71,10 +71,15 @@
 	"x":500,
 	"y":0,
 	"width":270,
-	"height":400
+	"height":400,
+	"alignment":"left",
+	"size":24
 }
 		</pre>
 		<p>This would render a box in 270x400 pixels in size at position (500,0), and populate it using the "skjarbio" data.</p>
+		<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
+
+		<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
 	</div>
 
 
@@ -93,12 +98,18 @@
 	"cols":5,
 	"rows":2,
 	"horizontal-spacing":10,
-	"vertical-spacing":5
+	"vertical-spacing":5,
+	"alignment":"left",
+	"size":24
 }
 	</pre>
 	<p>In a 5x2 grid there is enough room for 10 boxes, but if the "goodMovies" data is less than 10 then it would stop rendering. If "goodMovies" data has more than 10 items then the remainder would be ignored and not rendered.</p>
 
 	<p>A grid can also be used to populate large amounts of data by adding the repeat attribute.</p>
+
+	<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
+
+	<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
 	<pre>
 {
 	"type": "grid",
