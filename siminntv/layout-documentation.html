@@ -38,12 +38,28 @@
 		background-color:#fff;
 		border:2px solid #ccc;
 		padding:10px;
+		color:#444;
+	}
+
+	.required {
+		text-decoration: none;
+		font-weight:bold;
+		color:#ff3300;
+	}
+
+	.comment {
+		text-decoration: none;
+		color:#999;
+		font-family:arial;
+		margin-left:20px;
 	}
 	</style>
 </head>
 <body>
 
 	<h1>Layout documentation</h1>
+
+	<p>Everything <u class="required">marked in bold red</u> is required, everything else is optional.</p>
 
 	<h2>Layout properties</h2>
 	<h3>background-opacity</h3>
@@ -66,19 +82,20 @@
 		<p>The box element is the most important. It defines a singular box placeholder to render. Example:</p>
 		<pre>
 {
-	"type":"box",
-	"field":"skjarbio",
-	"x":500,
-	"y":0,
-	"width":270,
-	"height":400,
+	<u class="required">"type":"box",</u>
+	<u class="required">"field":"skjarbio",</u>
+	<u class="required">"x":500,</u>
+	<u class="required">"y":0,</u>
+	<u class="required">"width":270,</u>
+	<u class="required">"height":400,</u>
+	<u class="required">"image":"/path/to/image.php?name={imageUrl}&width={width}&height={height}&id={id}&rented={rented}",</u>
 	"alignment":"left",
 	"size":24
 }
 		</pre>
 		<p>This would render a box in 270x400 pixels in size at position (500,0), and populate it using the "skjarbio" data.</p>
+		<p>"image" contains the template to construct the URL to the image that appears in the box. Variables {imageUrl}, {width}, {height}, {id} and {rented} are optional variables and are injected into the string by the client. {imageUrl} comes from the structure, {width} and {height} must be pixel values calculated by the client, {id} comes from the structure, {rented} must be "1" or "0" and is calculated by the client whether the item is rented or not (only applicable for rentable items).</p>
 		<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
-
 		<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
 	</div>
 
@@ -89,48 +106,52 @@
 	<p>Example finite grid would populate with data from "goodMovies" as a 5x2 grid at position (0,400) where each box is of 200x100 in size, with 10 pixels separation horizontally and 5 pixels separation vertically between all boxes:</p>
 	<pre>
 {
-	"type": "grid",
-	"field":"goodMovies",
-	"x":0,
-	"y":400,
-	"width":270,
-	"height":400,
-	"cols":5,
-	"rows":2,
-	"horizontal-spacing":10,
-	"vertical-spacing":5,
+	<u class="required">"type": "grid",</u>
+	<u class="required">"field":"goodMovies",</u>
+	<u class="required">"x":0,</u>
+	<u class="required">"y":400,</u>
+	<u class="required">"width":270,</u>
+	<u class="required">"height":400,</u>
+	<u class="required">"cols":5,</u>
+	<u class="required">"rows":2,</u>
+	<u class="required">"horizontal-spacing":10,</u>
+	<u class="required">"vertical-spacing":5,</u>
+	<u class="required">"image":"/path/to/image.php?name={imageUrl}&width={width}&height={height}&id={id}&rented={rented}",</u>
 	"alignment":"left",
 	"size":24
 }
 	</pre>
 	<p>In a 5x2 grid there is enough room for 10 boxes, but if the "goodMovies" data is less than 10 then it would stop rendering. If "goodMovies" data has more than 10 items then the remainder would be ignored and not rendered.</p>
 
-	<p>A grid can also be used to populate large amounts of data by adding the repeat attribute.</p>
-
+	<p>"image" contains the template to construct the URL to the image that appears in the box. Variables {imageUrl}, {width}, {height}, {id} and {rented} are optional variables and are injected into the string by the client. {imageUrl} comes from the structure, {width} and {height} must be pixel values calculated by the client, {id} comes from the structure, {rented} must be "1" or "0" and is calculated by the client whether the item is rented or not (only applicable for rentable items).</p>
 	<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
-
 	<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
+
+	<h4>Repeat grid</h4>
+	<p>A grid can also be used to populate large amounts of data by adding the <b>repeat</b> attribute.</p>
+
 	<pre>
 {
-	"type": "grid",
-	"field":"allMovies",
-	"x":0,
-	"y":400,
-	"width":270,
-	"height":400,
-	"cols":5, // if repeat=true then for devices this should be considered cols=1
-	"rows":2,
-	"horizontal-spacing":10,
-	"vertical-spacing":5,
-	"offset":10,
-	"repeat":true,
-	"max-repeat":100
+	<u class="required">"type": "grid",</u>
+	<u class="required">"field":"allMovies",</u>
+	<u class="required">"x":0,</u>
+	<u class="required">"y":400,</u>
+	<u class="required">"width":270,</u>
+	<u class="required">"height":400,</u>
+	<u class="required">"cols":5,</u> <u class="comment">// if repeat=true then for devices this should be considered cols=1</u>
+	<u class="required">"rows":2,</u>
+	<u class="required">"horizontal-spacing":10,</u>
+	<u class="required">"vertical-spacing":5,</u>
+	<u class="required">"repeat":true,</u>
+	<u class="required">"max-repeat":100,</u>
+	<u class="required">"image":"/path/to/image.php?name={imageUrl}&width={width}&height={height}&id={id}&rented={rented}",</u>
+	"offset":10
 }
 	</pre>
 
-	<p>repeat is by default false, but if true then it should expand the grid to populate the "allMovies" structure list.</p>
-	<p>max-repeat is by default unlimited, but can set a maximum number of times it will repeat the grid pattern (1x2 x 100 = 200 boxes).</p>
-	<p>offset is optional, and defines at what item we wish to start rendering.</p>
+	<p>"repeat" is optional and by false, but if true the grid to populate the "allMovies" structure list in the specified pattern.</p>
+	<p>"max-repeat" is optional and by default unlimited, but can set a maximum number of times it will repeat the grid pattern (1x2 x 100 = 200 boxes).</p>
+	<p>"offset" is optional, and defines at what item we wish to start from.</p>
 
 	</div>
 
@@ -140,12 +161,12 @@
 		<p>Used to render a color filled rectangle, example:</p>
 		<pre>
 {
-	"type":"rectangle",
+	<u class="required">"type":"rectangle",
 	"x":0,
 	"y":112,
 	"width":1070,
 	"height":3,
-	"color":"#0e6a9a"
+	"color":"#0e6a9a"</u>
 }
 		</pre>
 	</div>
@@ -156,43 +177,23 @@
 		<p>Used to display text using a basic templating solution. Example:</p>
 		<pre>
 {
-	"type":"text",
+	<u class="required">"type":"text",
 	"text":"Verð {price} kr.",
 	"x":0,
-	"y":112,
+	"y":112,</u>
 	"width":500,
 	"height":175,
 	"size":22,
-	"color":"#ff0000"
+	"color":"#ff0000",
+	"font":"Simi"
 }
 		</pre>
-		<p>This would display the price as "Verð 300 kr." in red.</p>
-		<p>Width and height is primarily used to define a box (max-area) to encapsulate long text, such as description, which requires wrapping and possibly culling.</p>
-		<p>Color is simply a string value which can be of any format, e.g. "#ff0000" or "rgb(255,0,0,0)" or "red". For touchscreen devices one type should suffice, but alpha channel would be needed, e.g. "rgba(255,0,0,0.5)" 50% opacity of red.</p>
-		<p>Size defines the font size of the title text.</p>
+		<p>This would display the price as "Verð 300 kr." in red, whereas {price} comes from the structure and is injected by the client.</p>
+		<p>"width" and height are default and is primarily used to define a box (max-area) to encapsulate long text, such as description, which requires wrapping and possibly culling.</p>
+		<p>"color" is simply a string value which can be of any format, e.g. "#ff0000" or "rgb(255,0,0,0)" or "red". For touchscreen devices one type should suffice, but alpha channel would be needed, e.g. "rgba(255,0,0,0.5)" 50% opacity of red.</p>
+		<p>"size" defines the font size of the title text.</p>
+		<p>"font" is optional and by default the Simi font, but can be overriden by the layout.</p>
 	</div>
-
-
-
-	<h3>Text-array</h3>
-	<div class="section">
-		<p>Used to join together a text array using a delimiter. Example:</p>
-		<pre>
-{
-	"type":"text-array",
-	"delimiter":", ",
-	"field":"actors",
-	"x":0,
-	"y":324,
-	"width":1070,
-	"height":175,
-	"size":20,
-	"color":"#ff0000"
-}
-		</pre>
-		<p>Would inline together a list of actors as "John, Jack, Joe".</p>
-		<p>Otherwise it behaves similar to the text element, with similar attributes, such as size, color, width and height to encapsulate long text.</p>
-	</div>	
 
 
 
@@ -201,16 +202,17 @@
 		<p>Used to display an image using a basic templating solution. Example of displaying a PG image from an integer pg level "12":</p>
 		<pre>
 {
-	"type":"image",
-	"url":"http://where.is/my/pgicons/{pg}.png",
+	<u class="required">"type":"image",
+	"url":"/path/to/pgicons/{pg}.png",
 	"width":100,
 	"height":100,
 	"x":500,
-	"y":0,
+	"y":0,</u>
 	"border":true
 }
 		</pre>
-		<p>Border can be true or false, false by default. In some cases you want to show a border like if the image was a poster, but in other cases like showing a PG icon you don't want a border. The border style should be the same as the default one.</p>
+		<p>"border" can be true or false, false by default. In some cases you want to show a border like if the image was a poster, but in other cases like showing a PG icon you don't want a border. The border style should be the same as the default one.</p>
+		<p>The {pg} is injected from the structure. Other parameters could be injected if they exist in the structure.</p>
 	</div>
 
 
@@ -221,11 +223,11 @@
 		<p>Used to display a button, example:</p>
 		<pre>
 {
-	"type":"button",
+	<u class="required">"type":"button",
 	"text":"Order at price: {price} kr.",
 	"width":220,
 	"height":48,
-	"action":"ORDER",
+	"action":"ORDER",</u>
 	"color":"#0e6a9a",
 	"condition":"PLAY_AVAILABLE",
 	"ignoreAsFirst":true
