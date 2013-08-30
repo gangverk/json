@@ -227,7 +227,7 @@
 		<pre>
 {
 	<u class="required">"type":"image",
-	"url":"/path/to/pgicons/{pg}.png",
+	<u class="required">"image":"/path/to/image.php?name=pg_{pg}.jpg&width={width}&height={height}",</u>
 	"width":100,
 	"height":100,
 	"x":500,
@@ -236,6 +236,7 @@
 }
 		</pre>
 		<p>"border" can be true or false, false by default. In some cases you want to show a border like if the image was a poster, but in other cases like showing a PG icon you don't want a border. The border style should be the same as the default one.</p>
+		<p>{width} and {height} are calculated by client and injected as pixel values into the image template string.</p>
 		<p>The {pg} is injected from the structure. Other parameters could be injected if they exist in the structure.</p>
 	</div>
 
