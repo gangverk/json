@@ -100,6 +100,27 @@
 	</div>
 
 
+	<h3>TV</h3>
+	<div class="section">
+		<p>Nearly identical to the box element, except that it is a special case box to take you to the TV environment. Example:</p>
+		<pre>
+{
+	<u class="required">"type":"tv",</u>
+	<u class="required">"x":500,</u>
+	<u class="required">"y":0,</u>
+	<u class="required">"width":270,</u>
+	<u class="required">"height":400,</u>
+	<u class="required">"image":"/path/to/image.php?name=tv.jpg&width={width}&height={height}",</u>
+	"alignment":"left",
+	"size":24
+}
+		</pre>
+		<p>This would render a box in 270x400 pixels in size at position (500,0), with the specified image.</p>
+		<p>"image" contains the template to construct the URL to the image that appears in the box. Variables {width} and {height} are injected into the string by the client and must be pixel values calculated by the client.</p>
+		<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
+		<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
+	</div>	
+
 	<h3>Grid</h3>
 	<div class="section">
 	<p>Use a grid to render boxes as a grid, in an cols x rows arrangement. It can display a finite number of elements or repeat itself to display more.</p>
