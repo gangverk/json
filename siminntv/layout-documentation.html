@@ -118,7 +118,8 @@
 	<u class="required">"vertical-spacing":5,</u>
 	<u class="required">"image":"/path/to/image.php?name={imageUrl}&width={width}&height={height}&id={id}&rented={rented}",</u>
 	"alignment":"left",
-	"size":24
+	"size":24,
+	"offset":10
 }
 	</pre>
 	<p>In a 5x2 grid there is enough room for 10 boxes, but if the "goodMovies" data is less than 10 then it would stop rendering. If "goodMovies" data has more than 10 items then the remainder would be ignored and not rendered.</p>
@@ -126,6 +127,8 @@
 	<p>"image" contains the template to construct the URL to the image that appears in the box. Variables {imageUrl}, {width}, {height}, {id} and {rented} are optional variables and are injected into the string by the client. {imageUrl} comes from the structure, {width} and {height} must be pixel values calculated by the client, {id} comes from the structure, {rented} must be "1" or "0" and is calculated by the client whether the item is rented or not (only applicable for rentable items).</p>
 	<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
 	<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
+	<p>"offset" is optional, and defines at what item we wish to start from.</p>
+	<p>Note: A finite grid like this has an implicit maximum allowed number of items, e.g. 5x2 = 10 items. There is no need to have a "max" field here</p>
 
 	<h4>Repeat grid</h4>
 	<p>A grid can also be used to populate large amounts of data by adding the <b>repeat</b> attribute.</p>
@@ -143,14 +146,14 @@
 	<u class="required">"horizontal-spacing":10,</u>
 	<u class="required">"vertical-spacing":5,</u>
 	<u class="required">"repeat":true,</u>
-	<u class="required">"max-repeat":100,</u>
 	<u class="required">"image":"/path/to/image.php?name={imageUrl}&width={width}&height={height}&id={id}&rented={rented}",</u>
+	"max":100,
 	"offset":10
 }
 	</pre>
 
 	<p>"repeat" is optional and by false, but if true the grid to populate the "allMovies" structure list in the specified pattern.</p>
-	<p>"max-repeat" is optional and by default unlimited, but can set a maximum number of times it will repeat the grid pattern (1x2 x 100 = 200 boxes).</p>
+	<p>"max" is optional and by default unlimited, but when defined is specifies the number of allowed items to be displayed from the "allMovies" list.</p>
 	<p>"offset" is optional, and defines at what item we wish to start from.</p>
 
 	</div>
