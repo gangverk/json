@@ -64,14 +64,17 @@
 	<h2>Layout properties</h2>
 	<h3>background-opacity</h3>
 	<div class="section">
-		<p>It is possible to specify the opacity of a backdrop/background image for a layout. Example set opacity to 50%:</p>
+		<p>It is possible to specify fields in the topmost level of the layout:</p>
  		<pre>
 {
 	"background-opacity":0.5,
-	"screens":[...]
+	"backdrop":"mybackdrop.jpg",
+	<u class="required">"screens":[...]</u>
 }
 		</pre>
 		<p>background-opacity value can be between 0 and 1.</p>
+		<p>backdrop refers to a backdrop image. (structure backdrop overrides this)</p>
+		<p>screens contains the array of arrays containing the screen layout elements.</p>
  	</div>
 
 	<h2>Element types</h2>
