@@ -101,7 +101,7 @@
 		<p>"image" contains the template to construct the URL to the image that appears in the box. Variables {imageUrl}, {width}, {height}, {id} and {rented} are optional variables and are injected into the string by the client. {imageUrl} comes from the structure, {width} and {height} must be pixel values calculated by the client, {id} comes from the structure, {rented} must be "1" or "0" and is calculated by the client whether the item is rented or not (only applicable for rentable items).</p>
 		<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
 		<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
-		<p>"action" is optional and possible values are "OPEN_TV" or by default "OPEN".</p>
+		<p>"action" is optional and possible values are described in <a href="actions-and-conditions-documentation.html">actions-and-conditions-documentation.html</a>.</p>
 	</div>
 
 
@@ -124,7 +124,8 @@
 	<u class="required">"image":"/path/to/image.php?name={imageUrl}&width={width}&height={height}&id={id}&rented={rented}",</u>
 	"alignment":"left",
 	"size":24,
-	"offset":10
+	"offset":10,
+	"action":"OPEN"
 }
 	</pre>
 	<p>In a 5x2 grid there is enough room for 10 boxes, but if the "goodMovies" data is less than 10 then it would stop rendering. If "goodMovies" data has more than 10 items then the remainder would be ignored and not rendered.</p>
@@ -133,6 +134,7 @@
 	<p>"alignment" is optional, defaults to "center". Possible values are "left", "center" and "right".</p>
 	<p>"size" is the text size of the title. Height of the box title area is proportional to this value, by a factor of 1.6 (60% taller).</p>
 	<p>"offset" is optional, and defines at what item we wish to start from.</p>
+	<p>"action" is optional and possible values are described in <a href="actions-and-conditions-documentation.html">actions-and-conditions-documentation.html</a>.</p>
 	<p>Note: A finite grid like this has an implicit maximum allowed number of items, e.g. 5x2 = 10 items. There is no need to have a "max" field here</p>
 
 	<h4>Repeat grid</h4>
@@ -217,13 +219,15 @@
 	"x":500,
 	"y":0,</u>
 	"border":true,
-	"url":"/path/to/similar/movies/{id}"
+	"url":"/path/to/similar/movies/{id}",
+	"action": "OPEN"
 }
 		</pre>
 		<p>"border" can be true or false, false by default. In some cases you want to show a border like if the image was a poster, but in other cases like showing a PG icon you don't want a border. The border style should be the same as the default one.</p>
 		<p>{width} and {height} are calculated by client and injected as pixel values into the image template string.</p>
 		<p>The {pg} is injected from the structure. Other parameters could be injected if they exist in the structure.</p>
 		<p>{url} is optional and contains a reference to a structure that could be open by pressing on a image. It can also refer to structure variables.</p>
+		<p>"action" is optional and possible values are described in <a href="actions-and-conditions-documentation.html">actions-and-conditions-documentation.html</a>.</p>
 	</div>
 
 
