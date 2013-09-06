@@ -244,12 +244,12 @@
 	"height":48,
 	"action":"ORDER",</u>
 	"color":"#0e6a9a",
-	"condition":"PLAY_AVAILABLE"
+	"condition":"ORDER_AVAILABLE"
 }
 		</pre>
 		<p>Condition is optional, and tells the GUI to execute conditional checks to see if the button should be displayed.</p>
-		<p>Condition can be multiple, such as "PLAY_AVAILABLE,NEVER_RENTED".</p>
-		<p>Action defines a GUI action event that occurs when the button is pressed.</p>
+		<p>Condition is single, such as "ORDER_AVAILABLE".</p>
+		<p>Action defines a GUI action event that occurs when the button is pressed, the client will need to act accordingly, e.g. if action is "ORDER" then the client needs to assume (and validate) the structure has the relevant information to make an order, such as the id of the item to be ordered.</p>
 	</div>
 
 
@@ -258,19 +258,19 @@
 		<p>Used to display multiple buttons together whenever the available buttons are dynamic, that some of the buttons may appear or not, example:</p>
 		<pre>
 {
-	"type":"list",
+	<u class="required">"type":"list",
 	"direction":"horizontal",
 	"x":0,
-	"y":300,
-	"horizontal-spacing":10,
-	"elements": [{
+	"y":300,</u>
+	"spacing":10,
+	<u class="required">"elements":</u> [{
 			"type":"button",
 			"text":"Order at price: {price} kr.",
 			"width":220,
 			"height":48,
 			"action":"ORDER",
 			"color":"#0e6a9a",
-			"condition":"PLAY_AVAILABLE"
+			"condition":"ORDER_AVAILABLE"
 		},
 		{
 			"type":"button",
@@ -298,9 +298,9 @@
 		}]
 }
 		</pre>
-		<p>Direction can be either "horizontal" or "vertical".</p>
-		<p>Horizontal-spacing is only used if direction is horizontal, and vertical-spacing is only used if direction is vertical.</p>
-		<p>If certain buttons fail their condition checks, they are not displayed and the next button in the list takes their place.</p>
+		<p>"direction" can be either "horizontal" or "vertical", meaning buttons are rendered in that order.</p>
+		<p>"spacing" is the space separation between the buttons.</p>
+		<p>Each button may have a "condition" that needs to be checked in order to determine if the button should be displayed or not. If it fails the condition then the button next in the list takes its place.</p>
 	</div>
 </body>
 </html>
