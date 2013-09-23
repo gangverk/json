@@ -57,27 +57,67 @@
 </head>
 <body>
 
-	<h1>Layout documentation</h1>
+	<h1>Authentication documentation</h1>
 
-** COLD START **
-1. GET http://157.157.4.37/boot/{device_id}; returns 200 {links:{service_root:"service root url/path, stored on the client until next boot} => ** AUTHENTICATION **; 403 => ERROR
-* The service root can be absolute or relative to the host.
-2. GET http://157.157.4.37/{service_root} => returns 200 {links:{customer:/url/to/customer/info, home: /url/to/home/menu/structure} ; 401 (unauthorized) =>  ** AUTHENTICATION **
-3. Start home screen using the provided home url ; all returned links will be relative to the service root (e.g. if service root is http://157.157.4.37/oreo-api and the link /vod/menus/tv-home is returned then the url becomes http://157.157.4.37/oreo-api/vod/menus/tv-home.
-4. If any subsequent request returns 401 =>  ** AUTHENTICATION **
-5. Get structure: GET http://157.157.4.37/oreo-api/vod/menus/tv-home => returns 200 + the structure ; 401 => ** AUTHENTICATION **
-6. Get layout: GET http://157.157.4.37/oreo-api/vod/menus/tv-home/layout?device_class={device_class} => returns 200 
-7. … etc.
+	<h2><a id="COLD_START">Cold start</a></h2>
+<div class="section">
+<ol> 
+<li>GET http://157.157.4.37/boot/{device_id}<br>
+RETURNS:
+	<ul>
+		<li>200 {links:{service_root:"service root url/path, stored on the client until next boot} => <a href="#AUTHENTICATION">AUTHENTICATION</a> - The service root can be absolute or relative to the host. </li>
+		<li>403 => ERROR </li>
+	</ul>
+</li>
+<li>GET http://157.157.4.37/{service_root}<br>
+RETURNS
+<ul>
+	<li>200 {links:{customer:/url/to/customer/info, home: /url/to/home/menu/structure}</li>
+	<li>401 (unauthorized) => <a href="#AUTHENTICATION">AUTHENTICATION</a> </li>
+</ul>
+<li>Start home screen using the provided home url
+<ul><li>all returned links will be relative to the service root (e.g. if service root is http://157.157.4.37/oreo-api and the link /vod/menus/tv-home is returned then the url becomes http://157.157.4.37/oreo-api/vod/menus/tv-home.</li></ul>
+</li>
+<li>If any subsequent request returns 401 =>  <a href="#AUTHENTICATION">AUTHENTICATION</a></li>
+<li>Get structure: GET http://157.157.4.37/oreo-api/vod/menus/tv-home => <br>
+RETURNS
+<ul> 
+	<li>200 + the structure </li>
+	<li>401 => <a href="#AUTHENTICATION">AUTHENTICATION</a></li>
+</ul>
+<li>Get layout: GET http://157.157.4.37/oreo-api/vod/menus/tv-home/layout?device_class={device_class} => <br>
+	<ul>
+	<li>200 + layout</li>
+	<li>401 => <a href="#AUTHENTICATION">AUTHENTICATION</a>
+</ul>
+<li>… etc.</li>
+</ol>
+</div>
+<h2><a id="AUTHENTICATION">Authentication</a></h2>
+<ol>
+	<li>POST http://157.157.4.37/{service_root}/auth DATA: {device_id: 'verimatrix secret code', app_version: incremental app version number, platform: 'android/ios'} <br>
+	RETURNS 
+<ul>
+	<li>200 HEADER: Authorization:{AUTHORIZATION KEY} BODY {device_class: 'classification code for the device'} </li>
+	<ul>
+		<li>The service url should be cached and used as a prefix for all requests</li>
+		<li>The device class should also be cached and used when fetching a layout.</li>
+	</ul>
+	<li>401(unauthorized) => device id was not accepted, => <a href="#REGISTRATION">REGISTRATION</a> </li>
+	<li>403(forbidden) => access is forbidden for this platform+app version, ask user to upgrade app. </li>
 
-** AUTHENTICATION **
-1. POST http://157.157.4.37/{service_root}/auth DATA: {device_id: 'verimatrix secret code', app_version: incremental app version number, platform: 'android/ios'} => returns 200 HEADER: Authorization:xxx BODY {device_class: 'classification code for the device'} ; 401(unauthorized) => device id was not accepted, go to ** REGISTRATION ** ; 403(forbidden) => access is forbidden for this platform+app version, ask user to upgrade app.
-* The service url should be cached and used as a prefix for all requests
-* The device class should also be cached and used when fetching a layout.
+</ul>
 2. Resume whatever you were doing before using the new authentication token and device class.
-
-** REGISTRATION **
-1. Display authentication dialog/screen/wizard asking for a registration code.  
-2. POST /{service_root}/devices DATA {device_id: 'verimatrix secret code', registration_code: 'code gotten from STB'} => returns 200 if successful; 400 if the device id or registration code were not supplied; 403 if the registration code was rejected
-3. If step 2 returned 200 then goto ** COLD START **
+</ol>
+<h2><a id="REGISTRATION">Registration</a></h2>
+<ol>
+	<li>Display authentication dialog/screen/wizard asking for a registration code.  </li>
+	<li>POST /{service_root}/devices DATA {device_id: 'verimatrix secret code', registration_code: 'code gotten from STB'} <br>
+	<ul>
+		<li> 200 if successful </li> 
+		<li>400 if the device id or registration code were not supplied </li> 
+		<li>403 if the registration code was rejected</li>
+	<li>If step 2 returned 200 then goto <a href="COLD_START">COLD START</a></li>
+</ol>
 </body>
 </html>
