@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Layout documentation</title>
+	<style>
+	body {
+		font-family:arial, sans-serif;
+		margin:30px 50px 30px 50px;
+	}
+	h1 {
+		font-size:60px;
+		color:#333;
+		text-transform: uppercase;
+	}
+	h2 {
+		color:#666;
+		font-size:40px;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-size:40px;
+		text-transform: uppercase;
+		margin:0;
+		border-bottom:5px solid #ccc;
+		font-weight:lighter;
+		color:#555;
+	}
+
+	.section {
+		background-color:#efefef;
+		padding:5px 20px 5px 20px;
+		margin-bottom:50px;
+	}
+
+	pre {
+		font-size:16px;
+		background-color:#fff;
+		border:2px solid #ccc;
+		padding:10px;
+		color:#444;
+	}
+
+	.required {
+		text-decoration: none;
+		font-weight:bold;
+		color:#ff3300;
+	}
+
+	.comment {
+		text-decoration: none;
+		color:#999;
+		font-family:arial;
+		margin-left:20px;
+	}
+	</style>
+</head>
+<body>
+
+	<h1>Layout documentation</h1>
+
+** COLD START **
+1.  If a previous service root (see authentication procedure) is known => step 2, else => ** AUTHENTICATION ** which will provide the service root.
+2.  GET http://157.157.4.37/{service_root} => returns 200 {links:{customer:/url/to/customer/info, home: /url/to/home/menu/structure} ; 401 (unauthorized) =>  ** AUTHENTICATION **
+3. Start home screen using the provided home url ; all returned links will be relative to the service root (e.g. if service root is http://157.157.4.37/oreo-api and the link /vod/menus/tv-home is returned then the url becomes http://157.157.4.37/oreo-api/vod/menus/tv-home.
+4. If any subsequent request returns 401 =>  ** AUTHENTICATION *
+5. Get structure: GET http://157.157.4.37/oreo-api/vod/menus/tv-home => returns 200 + the structure ; 401 => ** AUTHENTICATION **
+6. Get layout: GET http://157.157.4.37/oreo-api/vod/menus/tv-home/layout?device_class={device_class} => returns 200 (see device_class in **AUTHENTICATION** procedure.
+7. … etc.
+
+** AUTHENTICATION **
+1. POST http://157.157.4.37/auth DATA: {device_id: 'verimatrix secret code', app_version: incremental app version number, platform: 'android/ios'} => returns 200 HEADER: Authorization:xxx BODY {links:{service_root: "http://157.157.4.37/oreo-api"}, device_class: 'classification code for the device'} ; 401(unauthorized) => device id was not accepted, go to ** REGISTRATION ** ; 403(forbidden) => access is forbidden for this platform+app version, ask user to upgrade app.
+* The service url should be cached and used as a prefix for all requests
+* The device class should also be cached and used when fetching a layout.
+2. Resume whatever you were doing before using the new authentication token and device class.
+
+** REGISTRATION **
+1. Display authentication dialog/screen/wizard asking for a registration code.  
+2. POST /auth/registration DATA {device_id: 'verimatrix secret code', registration_code: 'code gotten from STB'} => returns 200 if successful; 400 if the device id or registration code were not supplied; 403 if the registration code was rejected
+3. If step 2 returned 200 then goto ** COLD START **
+</body>
+</html>
