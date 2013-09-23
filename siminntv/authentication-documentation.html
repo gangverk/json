@@ -59,13 +59,14 @@
 
 	<h1>Authentication documentation</h1>
 
+
 	<h2><a id="COLD_START">Cold start</a></h2>
 <div class="section">
 <ol> 
 <li>GET http://157.157.4.37/boot/{device_id}<br>
 RETURNS:
 	<ul>
-		<li>200 {links:{service_root:"service root url/path, stored on the client until next boot} => <a href="#AUTHENTICATION">AUTHENTICATION</a> - The service root can be absolute or relative to the host. </li>
+		<li>200 {links:{service_root:"service root url/path, stored on the client until next boot} => <a href="#AUTHENTICATION">AUTHENTICATION</a> - The service root may be absolute or relative to the host. </li>
 		<li>403 => ERROR </li>
 	</ul>
 </li>
@@ -94,8 +95,11 @@ RETURNS
 </ol>
 </div>
 <h2><a id="AUTHENTICATION">Authentication</a></h2>
+
+
+<div class="section">
 <ol>
-	<li>POST http://157.157.4.37/{service_root}/auth DATA: {device_id: 'verimatrix secret code', app_version: incremental app version number, platform: 'android/ios'} <br>
+	<li>POST http://157.157.4.37/{service_root}/auth BODY: {device_id: 'verimatrix secret code', app_version: incremental app version number, platform: 'android/ios'} <br>
 	RETURNS 
 <ul>
 	<li>200 HEADER: Authorization:{AUTHORIZATION KEY} BODY {device_class: 'classification code for the device'} </li>
@@ -107,17 +111,21 @@ RETURNS
 	<li>403(forbidden) => access is forbidden for this platform+app version, ask user to upgrade app. </li>
 
 </ul>
-2. Resume whatever you were doing before using the new authentication token and device class.
+<li>Resume whatever you were doing before using the new authentication token and device class.</li>
 </ol>
+</div>
+
+
 <h2><a id="REGISTRATION">Registration</a></h2>
+<div class="section">
 <ol>
 	<li>Display authentication dialog/screen/wizard asking for a registration code.  </li>
-	<li>POST /{service_root}/devices DATA {device_id: 'verimatrix secret code', registration_code: 'code gotten from STB'} <br>
+	<li>POST /{service_root}/devices BODY {device_id: 'verimatrix secret code', registration_code: 'code gotten from STB'} <br>
 	<ul>
-		<li> 200 if successful </li> 
+		<li> 200 if successful => <a href="COLD_START">COLD START</a></li> 
 		<li>400 if the device id or registration code were not supplied </li> 
 		<li>403 if the registration code was rejected</li>
-	<li>If step 2 returned 200 then goto <a href="COLD_START">COLD START</a></li>
 </ol>
+</ul>div>
 </body>
 </html>
