@@ -66,11 +66,11 @@
 <li>GET http://157.157.4.37/boot/{device_id}<br>
 RETURNS:
 	<ul>
-		<li>200 {links:{service_root:"service root url/path, stored on the client until next boot} => <a href="#AUTHENTICATION">AUTHENTICATION</a> - The service root may be absolute or relative to the host. </li>
+		<li>200 {links:{service_root:"absolute service root url; should be stored on the client until next boot} => <a href="#AUTHENTICATION">AUTHENTICATION</a></li>
 		<li>403 => ERROR - the device has been blacklisted for some reason</li>
 	</ul>
 </li>
-<li>GET http://157.157.4.37/{service_root}<br>
+<li>GET {service_root}<br>
 RETURNS
 <ul>
 	<li>200 {links:{customer:'/url/to/customer/info', home: '/url/to/home/menu/structure'}</li>
