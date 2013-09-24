@@ -77,16 +77,16 @@ RETURNS
 	<li>401 (unauthorized) => <a href="#AUTHENTICATION">AUTHENTICATION</a> </li>
 </ul>
 <li>Start home screen using the provided home url
-<ul><li>all returned links will be relative to the service root (e.g. if service root is http://157.157.4.37/oreo-api and the link /vod/menus/tv-home is returned then the url becomes http://157.157.4.37/oreo-api/vod/menus/tv-home.</li></ul>
+<ul><li>all returned links will be relative to the service root (e.g. if service root is http://157.157.4.37/oreo-api/ and the link vod/menus/tv-home is returned then the url becomes http://157.157.4.37/oreo-api/vod/menus/tv-home.</li></ul>
 </li>
 <li>If any subsequent request returns 401 =>  <a href="#AUTHENTICATION">AUTHENTICATION</a></li>
-<li>Get structure: GET http://157.157.4.37/oreo-api/vod/menus/tv-home => <br>
+<li>Get structure: GET {service_root}vod/menus/tv-home => <br>
 RETURNS
 <ul> 
 	<li>200 + the structure </li>
 	<li>401 => <a href="#AUTHENTICATION">AUTHENTICATION</a></li>
 </ul>
-<li>Get layout: GET http://157.157.4.37/oreo-api/vod/menus/tv-home/layout?device_class={device_class} => <br>
+<li>Get layout: GET {service_root}vod/menus/tv-home/layout?device_class={device_class} => <br>
 	<ul>
 	<li>200 + layout</li>
 	<li>401 => <a href="#AUTHENTICATION">AUTHENTICATION</a>
