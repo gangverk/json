@@ -7,14 +7,14 @@
       "longitude": -71.060,
       "market_id": 8,
       "name": "Boston",
-      "tag": "Boston"
+      "tag": "boston"
     },
     {
       "latitude": 40.726,
       "longitude": -74.002,
       "market_id": 1,
       "name": "New York",
-      "tag": "New York"
+      "tag": "new-york"
     }
   ],
   "flow_api_url": "http://api.flow.net/",
@@ -514,7 +514,7 @@
         "website_url":"http://www.923now.com"
       }
     ],
-    "tag": "New York",
+    "tag": "new-york",
     "traffic_url": "",
     "zip": "10046"
   }
