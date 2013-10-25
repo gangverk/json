@@ -4,12 +4,14 @@
       "latitude": 42.3626,
       "longitude": -71.060,
       "market_id": 8,
-      "name": "Boston"
+      "name": "Boston",
+      "tag": "Boston"
     },
     {
       "latitude": 40.726,
       "longitude": -74.002,
       "market_id": 1,
+      "name": "New York",
       "name": "New York"
     }
   ]
