@@ -21,6 +21,7 @@
   "help_url": "http://help.radio.com/",
   "radio_player_timeout": 20,
   "selected_city": {
+    "circular_url": "http://circulars.cbslocal.com/?p=cbsboston",
     "home_categories": [
       {
         "name": "News",
@@ -146,6 +147,7 @@
     "longitude": -71.060,
     "market_id": 8,
     "name": "Boston",
+    "newsletter_site_code": "CBSBOSTON",
     "stations": [
       {
         "mountpoints": [
