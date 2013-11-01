@@ -21,6 +21,7 @@
   "help_url": "http://help.radio.com/",
   "radio_player_timeout": 20,
   "selected_city": {
+    "circular_url": "http://circulars.cbslocal.com/?p=cbsnewyork",
     "home_categories": [
       {
         "name": "News",
@@ -164,6 +165,7 @@
     "longitude": -74.002,
     "market_id": 1,
     "name": "New York",
+    "newsletter_site_code": "CBSNEWYORK",
     "stations": [
       {
         "mountpoints":[
