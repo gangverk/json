@@ -19,6 +19,24 @@
   ],
   "flow_api_url": "http://api.flow.net/",
   "help_url": "http://help.radio.com/",
+  "notification_tags": [
+    {
+      "tag": "news",
+      "description": "Breaking News"
+    },
+    {
+      "tag": "sports",
+      "description": "Sports Headlines"
+    },
+    {
+      "tag": "weather",
+      "description": "Weather Alerts"
+    },
+    {
+      "tag": "traffic",
+      "description": "Traffic Advisory"
+    }
+  ],
   "radio_player_timeout": 20,
   "selected_city": {
     "circular_url": "http://circulars.cbslocal.com/?p=cbsnewyork",
