@@ -173,12 +173,9 @@
       },
       {
         "name": "Weather"
-      },
-      {
-        "name": "Traffic"
       }
     ],
-    "home_category_order": [ [0, 0], [1, 0], [2, 0], [3, 0] ],
+    "home_category_order": [ [0, 0], [1, 0], [2, 0] ],
     "latitude": 40.726,
     "longitude": -74.002,
     "market_id": 1,
