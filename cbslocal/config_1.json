@@ -533,6 +533,7 @@
     ],
     "tag": "new-york",
     "traffic_url": "",
+    "wunderground_url": "http://api.wunderground.com/api/",
     "zip": "10046"
   }
 }
