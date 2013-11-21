@@ -457,7 +457,7 @@
     ],
     "tag": "boston",
     "traffic_url": "",
-    "wunderground_url": "http://api.wunderground.com/api/",
+    "wunderground_api_url": "http://api.wunderground.com/api/",
     "zip": "10046"
   }
 }
