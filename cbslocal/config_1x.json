@@ -46,7 +46,7 @@
         "name": "News",
         "flow_id": "5254674d0cf262a4e40d071e",
         "featured": 1,
-        "listable": 1,
+        "default_category": 1,
         "group": "News",
         "order": 1
       },
@@ -54,7 +54,6 @@
         "identifier": 2,
         "name": "Latest News",
         "flow_id": "5254674d0cf262a4e40d06be",
-        "featured": 0,
         "listable": 0,
         "group": "News",
         "order": 100
@@ -63,8 +62,6 @@
         "identifier": 3,
         "name": "Business",
         "flow_id": "5254674d0cf262a4e40d06ac",
-        "featured": 0,
-        "listable": 1,
         "group": "News",
         "order": 101
       },
@@ -72,8 +69,6 @@
         "identifier": 4,
         "name": "Consumer",
         "flow_id": "5254674d0cf262a4e40d06b2",
-        "featured": 0,
-        "listable": 1,
         "group": "News",
         "order": 102
       },
@@ -81,8 +76,6 @@
         "identifier": 5,
         "name": "Entertainment",
         "flow_id": "5254674d0cf262a4e40d06b8",
-        "featured": 0,
-        "listable": 1,
         "group": "News",
         "order": 103
       },
@@ -90,8 +83,6 @@
         "identifier": 6,
         "name": "Health",
         "flow_id": "5254674d0cf262a4e40d06ca",
-        "featured": 0,
-        "listable": 1,
         "group": "News",
         "order": 104
       },
@@ -99,8 +90,6 @@
         "identifier": 7,
         "name": "Politics",
         "flow_id": "5254674d0cf262a4e40d06d0",
-        "featured": 0,
-        "listable": 1,
         "group": "News",
         "order": 105
       },
@@ -108,8 +97,6 @@
         "identifier": 8,
         "name": "Tech",
         "flow_id": "5254674d0cf262a4e40d06d6",
-        "featured": 0,
-        "listable": 1,
         "group": "News",
         "order": 106
       },
@@ -117,8 +104,6 @@
         "identifier": 9,
         "name": "Music News",
         "flow_id": "5254674d0cf262a4e40d072a",
-        "featured": 0,
-        "listable": 1,
         "group": "News",
         "order": 107
       },
@@ -127,7 +112,7 @@
         "name": "Sports",
         "flow_id": "5254674d0cf262a4e40d0724",
         "featured": 1,
-        "listable": 1,
+        "default_category": 1,
         "group": "Sports",
         "order": 2
       },
@@ -135,7 +120,6 @@
         "identifier": 11,
         "name": "Latest Sports",
         "flow_id": "5254674d0cf262a4e40d06e2",
-        "featured": 0,
         "listable": 0,
         "group": "Sports",
         "order": 200
@@ -144,8 +128,6 @@
         "identifier": 12,
         "name": "Devils",
         "flow_id": "5254674d0cf262a4e40d06dc",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 201
       },
@@ -153,8 +135,6 @@
         "identifier": 13,
         "name": "Giants",
         "flow_id": "5254674d0cf262a4e40d06e8",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 202
       },
@@ -162,8 +142,6 @@
         "identifier": 14,
         "name": "Islanders",
         "flow_id": "5254674d0cf262a4e40d06ee",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 203
       },
@@ -171,8 +149,6 @@
         "identifier": 15,
         "name": "Jets",
         "flow_id": "5254674d0cf262a4e40d06f4",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 204
       },
@@ -180,8 +156,6 @@
         "identifier": 16,
         "name": "Knicks",
         "flow_id": "5254674d0cf262a4e40d06fa",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 205
       },
@@ -189,8 +163,6 @@
         "identifier": 17,
         "name": "Mets",
         "flow_id": "5254674d0cf262a4e40d0700",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 206
       },
@@ -198,8 +170,6 @@
         "identifier": 18,
         "name": "Nets",
         "flow_id": "5254674d0cf262a4e40d0706",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 207
       },
@@ -207,8 +177,6 @@
         "identifier": 19,
         "name": "Rangers",
         "flow_id": "5254674d0cf262a4e40d070c",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 208
       },
@@ -216,16 +184,13 @@
         "identifier": 20,
         "name": "Yankees",
         "flow_id": "5254674d0cf262a4e40d0712",
-        "featured": 0,
-        "listable": 1,
         "group": "Sports",
         "order": 209
       },
       {
         "identifier": 21,
         "name": "Weather",
-        "featured": 0,
-        "listable": 1,
+        "default_category": 1,
         "group": "Weather",
         "order": 3
       }
