@@ -19,6 +19,7 @@
   ],
   "flow_api_url": "http://api.flow.net/",
   "help_url": "http://help.radio.com/",
+  "radio_player_timeout": 20,
   "notification_tags": [
     {
       "tag": "news",
@@ -37,144 +38,94 @@
       "description": "Traffic Advisory"
     }
   ],
-  "radio_player_timeout": 20,
   "selected_city": {
     "circular_url": "http://circulars.cbslocal.com/?p=cbsboston",
-    "home_categories": [
+    "feed_collections": [
       {
-        "identifier": 1,
         "name": "News",
-        "flow_id": "525467470cf262a4e40cfe9c",
-        "featured": 1,
-        "default_category": 1,
-        "group": "News",
-        "order": 1
+        "feeds": [
+          {
+            "name": "News",
+            "flow_id": "525467470cf262a4e40cfe9c",
+            "featured": 1,
+            "default": 1
+          },
+          {
+            "name": "Latest News",
+            "flow_id": "525467470cf262a4e40cfe5a",
+            "listable": 0
+          },
+          {
+            "name": "Business",
+            "flow_id": "525467470cf262a4e40cfe48"
+          },
+          {
+            "name": "Consumer",
+            "flow_id": "525467470cf262a4e40cfe4e"
+          },
+          {
+            "name": "Blogs",
+            "flow_id": "525467470cf262a4e40cfe3c"
+          },
+          {
+            "name": "Entertainment",
+            "flow_id": "525467470cf262a4e40cfe54"
+          },
+          {
+            "name": "Health",
+            "flow_id": "525467470cf262a4e40cfe60"
+          },
+          {
+            "name": "Politics",
+            "flow_id": "525467470cf262a4e40cfe66"
+          },
+          {
+            "name": "Tech",
+            "flow_id": "525467470cf262a4e40cfe6c"
+          },
+          {
+            "name": "Music News",
+            "flow_id": "525467470cf262a4e40cfeb4"
+          }
+        ]
       },
       {
-        "identifier": 2,
-        "name": "Latest News",
-        "flow_id": "525467470cf262a4e40cfe5a",
-        "listable": 0,
-        "group": "News",
-        "order": 100
-      },
-      {
-        "identifier": 3,
-        "name": "Business",
-        "flow_id": "525467470cf262a4e40cfe48",
-        "group": "News",
-        "order": 101
-      },
-      {
-        "identifier": 4,
-        "name": "Consumer",
-        "flow_id": "525467470cf262a4e40cfe4e",
-        "group": "News",
-        "order": 102
-      },
-      {
-        "identifier": 5,
-        "name": "Blogs",
-        "flow_id": "525467470cf262a4e40cfe3c",
-        "group": "News",
-        "order": 103
-      },
-      {
-        "identifier": 6,
-        "name": "Entertainment",
-        "flow_id": "525467470cf262a4e40cfe54",
-        "group": "News",
-        "order": 104
-      },
-      {
-        "identifier": 7,
-        "name": "Health",
-        "flow_id": "525467470cf262a4e40cfe60",
-        "group": "News",
-        "order": 105
-      },
-      {
-        "identifier": 8,
-        "name": "Politics",
-        "flow_id": "525467470cf262a4e40cfe66",
-        "group": "News",
-        "order": 106
-      },
-      {
-        "identifier": 9,
-        "name": "Tech",
-        "flow_id": "525467470cf262a4e40cfe6c",
-        "group": "News",
-        "order": 107
-      },
-      {
-        "identifier": 10,
-        "name": "Music News",
-        "flow_id": "525467470cf262a4e40cfeb4",
-        "group": "News",
-        "order": 108
-      },
-      {
-        "identifier": 11,
         "name": "Sports",
-        "flow_id": "525467470cf262a4e40cfea2",
-        "featured": 1,
-        "default_category": 1,
-        "group": "Sports",
-        "order": 2
-      },
-      {
-        "identifier": 12,
-        "name": "Latest Sports",
-        "flow_id": "525467470cf262a4e40cfe84",
-        "listable": 0,
-        "group": "Sports",
-        "order": 200
-      },
-      {
-        "identifier": 13,
-        "name": "Bruins",
-        "flow_id": "525467470cf262a4e40cfe72",
-        "group": "Sports",
-        "order": 201
-      },
-      {
-        "identifier": 14,
-        "name": "Celtics",
-        "flow_id": "525467470cf262a4e40cfe78",
-        "group": "Sports",
-        "order": 202
-      },
-      {
-        "identifier": 15,
-        "name": "Fantasy",
-        "flow_id": "525467470cf262a4e40cfe7e",
-        "group": "Sports",
-        "order": 203
-      },
-      {
-        "identifier": 16,
-        "name": "Patriots",
-        "flow_id": "525467470cf262a4e40cfe8a",
-        "group": "Sports",
-        "order": 204
-      },
-      {
-        "identifier": 17,
-        "name": "Red Sox",
-        "flow_id": "525467470cf262a4e40cfe90",
-        "group": "Sports",
-        "order": 205
-      },
-      {
-        "identifier": 18,
-        "name": "Weather",
-        "default_category": 1,
-        "group": "Weather",
-        "order": 3
+        "feed_configs": [
+          {
+            "name": "Sports",
+            "flow_id": "525467470cf262a4e40cfea2",
+            "featured": 1,
+            "default": 1
+          },
+          {
+            "name": "Latest Sports",
+            "flow_id": "525467470cf262a4e40cfe84",
+            "listable": 0
+          },
+          {
+            "name": "Bruins",
+            "flow_id": "525467470cf262a4e40cfe72"
+          },
+          {
+            "name": "Celtics",
+            "flow_id": "525467470cf262a4e40cfe78"
+          },
+          {
+            "name": "Fantasy",
+            "flow_id": "525467470cf262a4e40cfe7e"
+          },
+          {
+            "name": "Patriots",
+            "flow_id": "525467470cf262a4e40cfe8a"
+          },
+          {
+            "name": "Red Sox",
+            "flow_id": "525467470cf262a4e40cfe90"
+          }
+        ]
       }
     ],
-    "home_category_order": [ [0, 0], [1, 0], [2, 0] ],
     "latitude": 42.3626,
     "longitude": -71.060,
     "market_id": 8,
