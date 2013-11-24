@@ -87,7 +87,7 @@
       },
       {
         "name": "Sports",
-        "feed_configs": [
+        "feeds": [
           {
             "name": "Sports",
             "flow_id": "5254674d0cf262a4e40d0724",
