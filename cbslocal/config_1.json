@@ -139,6 +139,7 @@
       }
     ],
     "latitude": 40.726,
+    "logo_url": "https://yourday-dev.s3.amazonaws.com/uploads/cbsNewYork.png",
     "longitude": -74.002,
     "market_id": 1,
     "name": "New York",
