@@ -129,6 +129,7 @@
     ],
     "latitude": 42.3626,
     "longitude": -71.060,
+    "logo_url": "https://yourday-dev.s3.amazonaws.com/uploads/cbsBoston.png",
     "market_id": 8,
     "name": "Boston",
     "newsletter_site_code": "CBSBOSTON",
