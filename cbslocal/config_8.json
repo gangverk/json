@@ -88,7 +88,8 @@
             "name": "Music News",
             "flow_id": "525467470cf262a4e40cfeb4"
           }
-        ]
+        ],
+        "item_class": "Article"
       },
       {
         "name": "Sports",
@@ -124,7 +125,8 @@
             "name": "Red Sox",
             "flow_id": "525467470cf262a4e40cfe90"
           }
-        ]
+        ],
+        "item_class": "Article"
       }
     ],
     "latitude": 42.3626,
