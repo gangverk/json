@@ -83,7 +83,8 @@
             "name": "Music News",
             "flow_id": "5254674d0cf262a4e40d072a"
           }
-        ]
+        ],
+        "item_class": "Article"
       },
       {
         "name": "Sports",
@@ -135,7 +136,8 @@
             "name": "Yankees",
             "flow_id": "5254674d0cf262a4e40d0712"
           }
-        ]
+        ],
+        "item_class": "Article"
       }
     ],
     "latitude": 40.726,
