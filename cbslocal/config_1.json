@@ -142,9 +142,11 @@
       {
         "name": "Video",
         "feeds": [
-          "name": "Video",
-          "flow_id": "5254674d0cf262a4e40d0730",
-          "default": 1
+          {
+            "name": "Video",
+            "flow_id": "5254674d0cf262a4e40d0730",
+            "default": 1
+          }
         ],
         "item_class": "Video"
       }
