@@ -129,6 +129,43 @@
         "item_class": "Article"
       },
       {
+        "name": "Best Of",
+        "feeds": [
+          {
+            "name": "Featured Best Of",
+            "flowId": "525467470cf262a4e40cfe96",
+            "featured": "1",
+            "default": "1"
+          },
+          {
+            "name": "Best Of",
+            "flowId": "525467470cf262a4e40cfe42",
+            "listable": 0
+          },
+          {
+            "name": "Arts & Culture",
+            "flowId": "525467470cf262a4e40cfe1e"
+          },
+          {
+            "name": "Family & Pets",
+            "flowId": "525467470cf262a4e40cfe24"
+          },
+          {
+            "name": "Food & Drink",
+            "flowId": "525467470cf262a4e40cfe2a"
+          },
+          {
+            "name": "Nightlife & Music",
+            "flowId": "525467470cf262a4e40cfe30"
+          },
+          {
+            "name": "Shopping & Style",
+            "flowId": "525467470cf262a4e40cfe36"
+          }
+        ],
+        "item_class": "Article"
+      },
+      {
         "name": "Video",
         "feeds": [
           {
