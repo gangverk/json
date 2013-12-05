@@ -144,34 +144,34 @@
         "feeds": [
           {
             "name": "Featured Best Of",
-            "flowId": "5254674d0cf262a4e40d0718",
+            "flow_id": "5254674d0cf262a4e40d0718",
             "featured": "1",
             "default": "1"
           },
           {
             "name": "Best Of",
-            "flowId": "5254674d0cf262a4e40d0691",
+            "flow_id": "5254674d0cf262a4e40d0691",
             "listable": 0
           },
           {
             "name": "Arts & Culture",
-            "flowId": "5254674d0cf262a4e40d0685"
+            "flow_id": "5254674d0cf262a4e40d0685"
           },
           {
             "name": "Family & Pets",
-            "flowId": "5254674d0cf262a4e40d068b"
+            "flow_id": "5254674d0cf262a4e40d068b"
           },
           {
             "name": "Food & Drink",
-            "flowId": "5254674d0cf262a4e40d069a"
+            "flow_id": "5254674d0cf262a4e40d069a"
           },
           {
             "name": "Nightlife & Music",
-            "flowId": "5254674d0cf262a4e40d06a0"
+            "flow_id": "5254674d0cf262a4e40d06a0"
           },
           {
             "name": "Shopping & Style",
-            "flowId": "5254674d0cf262a4e40d06a6"
+            "flow_id": "5254674d0cf262a4e40d06a6"
           }
         ],
         "item_class": "Article"
