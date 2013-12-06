@@ -186,6 +186,17 @@
           }
         ],
         "item_class": "Video"
+      },
+      {
+        "name": "Offers",
+        "feeds": [
+          {
+            "name": "Offers",
+            "flow_id": "5254674d0cf262a4e40d0738",
+            "default": 1
+          }
+        ],
+        "item_class": "Offer"
       }
     ],
     "latitude": 40.726,
