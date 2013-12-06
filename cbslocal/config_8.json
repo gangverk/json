@@ -19,7 +19,6 @@
   ],
   "flow_api_url": "http://api.flow.net/",
   "help_url": "http://help.radio.com/",
-  "radio_player_timeout": 20,
   "notification_tags": [
     {
       "tag": "news",
@@ -38,6 +37,7 @@
       "description": "Traffic Advisory"
     }
   ],
+  "radio_player_timeout": 20,
   "selected_city": {
     "circular_url": "http://circulars.cbslocal.com/?p=cbsboston",
     "feed_collections": [
