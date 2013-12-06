@@ -186,6 +186,35 @@
           }
         ],
         "item_class": "Offer"
+      },
+      {
+        "name": "Events",
+        "feeds": [
+          {
+            "name": "Featured Events",
+            "flow_id": "525467470cf262a4e40cfeae",
+            "featured": 1,
+            "default": 1
+          },
+          {
+            "name": "Events",
+            "flow_id": "525467470cf262a4e40cfea8",
+            "listable": 0
+          },
+          {
+            "name": "WBMX Events",
+            "flow_id": "527d4bbf0cf2ff3296510083"
+          },
+          {
+            "name": "WODS Events",
+            "flow_id": "527d4bc00cf2ff3296510089"
+          },
+          {
+            "name": "WZLX Events",
+            "flow_id": "527d4bc00cf2eaf0c96602f7"
+          }
+        ],
+        "item_class": "Event"
       }
     ],
     "latitude": 42.3626,
