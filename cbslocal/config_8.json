@@ -194,6 +194,7 @@
     "market_id": 8,
     "name": "Boston",
     "newsletter_site_code": "CBSBOSTON",
+    "newsletter_site_id": "1831",
     "stations": [
       {
         "mountpoints": [
