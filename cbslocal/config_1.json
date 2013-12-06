@@ -201,9 +201,29 @@
       {
         "name": "Events",
         "feeds": [
-          "name": "Events",
-          "flow_id": "5254674d0cf262a4e40d0738",
-          "default": 1
+          {
+            "name": "Featured Events",
+            "flow_id": "5254674d0cf262a4e40d0679",
+            "featured": 1,
+            "default": 1
+          },
+          {
+            "name": "Events",
+            "flow_id": "5254674d0cf262a4e40d067f",
+            "listable": 0
+          },
+          {
+            "name": "WCBS Events",
+            "flow_id": "527d4bc30cf2eaf0c96603a8"
+          },
+          {
+            "name": "WNOW Events",
+            "flow_id": "527d4bc30cf2ff3296510143"
+          },
+          {
+            "name": "WWFS Events",
+            "flow_id": "527d4bc30cf2eaf0c96603b1"
+          }
         ],
         "item_class": "Event"
       }
