@@ -197,6 +197,15 @@
           }
         ],
         "item_class": "Offer"
+      },
+      {
+        "name": "Events",
+        "feeds": [
+          "name": "Events",
+          "flow_id": "5254674d0cf262a4e40d0738",
+          "default": 1
+        ],
+        "item_class": "Event"
       }
     ],
     "latitude": 40.726,
