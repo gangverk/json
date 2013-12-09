@@ -57,8 +57,7 @@
           },
           {
             "name": "Business",
-            "flow_id": "525467470cf262a4e40cfe48",
-            "default": 1
+            "flow_id": "525467470cf262a4e40cfe48"
           },
           {
             "name": "Consumer",
