@@ -47,13 +47,12 @@
           {
             "name": "News",
             "flow_id": "525467470cf262a4e40cfe9c",
-            "featured": 1,
-            "default": 1
+            "featured": 1
           },
           {
             "name": "Latest News",
             "flow_id": "525467470cf262a4e40cfe5a",
-            "listable": 0
+            "default": 1
           },
           {
             "name": "Business",
@@ -96,13 +95,12 @@
           {
             "name": "Sports",
             "flow_id": "525467470cf262a4e40cfea2",
-            "featured": 1,
-            "default": 1
+            "featured": 1
           },
           {
             "name": "Latest Sports",
             "flow_id": "525467470cf262a4e40cfe84",
-            "listable": 0
+            "default": 1
           },
           {
             "name": "Bruins",
@@ -133,13 +131,12 @@
           {
             "name": "Featured Best Of",
             "flow_id": "525467470cf262a4e40cfe96",
-            "featured": "1",
-            "default": "1"
+            "featured": "1"
           },
           {
             "name": "Best Of",
             "flow_id": "525467470cf262a4e40cfe42",
-            "listable": 0
+            "default": "1"
           },
           {
             "name": "Arts & Culture",
@@ -192,13 +189,12 @@
           {
             "name": "Featured Events",
             "flow_id": "525467470cf262a4e40cfeae",
-            "featured": 1,
-            "default": 1
+            "featured": 1
           },
           {
             "name": "Events",
             "flow_id": "525467470cf262a4e40cfea8",
-            "listable": 0
+            "default": 1
           },
           {
             "name": "WBMX Events",
