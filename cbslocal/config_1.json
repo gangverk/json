@@ -47,13 +47,12 @@
           {
             "name": "News",
             "flow_id": "5254674d0cf262a4e40d071e",
-            "featured": 1,
-            "default": 1
+            "featured": 1
           },
           {
             "name": "Latest News",
             "flow_id": "5254674d0cf262a4e40d06be",
-            "listable": 0
+            "default": 1
           },
           {
             "name": "Business",
@@ -92,13 +91,12 @@
           {
             "name": "Sports",
             "flow_id": "5254674d0cf262a4e40d0724",
-            "featured": 1,
-            "default": 1
+            "featured": 1
           },
           {
             "name": "Latest Sports",
             "flow_id": "5254674d0cf262a4e40d06e2",
-            "listable": 0
+            "default": 1
           },
           {
             "name": "Devils",
@@ -145,13 +143,12 @@
           {
             "name": "Featured Best Of",
             "flow_id": "5254674d0cf262a4e40d0718",
-            "featured": "1",
-            "default": "1"
+            "featured": "1"
           },
           {
             "name": "Best Of",
             "flow_id": "5254674d0cf262a4e40d0691",
-            "listable": 0
+            "default": 1
           },
           {
             "name": "Arts & Culture",
@@ -204,13 +201,12 @@
           {
             "name": "Featured Events",
             "flow_id": "5254674d0cf262a4e40d0679",
-            "featured": 1,
-            "default": 1
+            "featured": 1
           },
           {
             "name": "Events",
             "flow_id": "5254674d0cf262a4e40d067f",
-            "listable": 0
+            "default": 1
           },
           {
             "name": "WCBS Events",
