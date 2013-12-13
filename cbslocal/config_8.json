@@ -203,7 +203,7 @@
             "default": 1
           }
         ],
-        "item_class": "Weather"
+        "item_class": "Forecast"
       }
     ],
     "latitude": 42.3626,
