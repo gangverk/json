@@ -6,144 +6,213 @@
       "latitude": 42.3626,
       "longitude": -71.060,
       "market_id": 8,
-      "name": "Boston"
+      "name": "Boston",
+      "tag": "boston"
     },
     {
       "latitude": 40.726,
       "longitude": -74.002,
       "market_id": 1,
-      "name": "New York"
+      "name": "New York",
+      "tag": "new-york"
     }
   ],
   "flow_api_url": "http://api.flow.net/",
   "help_url": "http://help.radio.com/",
+  "notification_tags": [
+    {
+      "tag": "news",
+      "description": "Breaking News"
+    },
+    {
+      "tag": "sports",
+      "description": "Sports Headlines"
+    },
+    {
+      "tag": "weather",
+      "description": "Weather Alerts"
+    },
+    {
+      "tag": "traffic",
+      "description": "Traffic Advisory"
+    }
+  ],
   "radio_player_timeout": 20,
   "selected_city": {
-    "home_categories": [
+    "circular_url": "http://circulars.cbslocal.com/?p=cbsboston",
+    "feed_collections": [
       {
         "name": "News",
-        "feed_configs": [
+        "feeds": [
           {
             "name": "News",
             "flow_id": "525467470cf262a4e40cfe9c",
-            "featured": 1,
-            "listable": 1
+            "featured": 1
           },
           {
             "name": "Latest News",
             "flow_id": "525467470cf262a4e40cfe5a",
-            "featured": 0,
-            "listable": 0
+            "default": 1
           },
           {
             "name": "Business",
-            "flow_id": "525467470cf262a4e40cfe48",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe48"
           },
           {
             "name": "Consumer",
-            "flow_id": "525467470cf262a4e40cfe4e",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe4e"
           },
           {
             "name": "Blogs",
-            "flow_id": "525467470cf262a4e40cfe3c",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe3c"
           },
           {
             "name": "Entertainment",
-            "flow_id": "525467470cf262a4e40cfe54",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe54"
           },
           {
             "name": "Health",
-            "flow_id": "525467470cf262a4e40cfe60",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe60"
           },
           {
             "name": "Politics",
-            "flow_id": "525467470cf262a4e40cfe66",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe66"
           },
           {
             "name": "Tech",
-            "flow_id": "525467470cf262a4e40cfe6c",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe6c"
           },
           {
             "name": "Music News",
-            "flow_id": "525467470cf262a4e40cfeb4",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfeb4"
           }
-        ]
+        ],
+        "item_class": "Article"
       },
       {
         "name": "Sports",
-        "feed_configs": [
+        "feeds": [
           {
             "name": "Sports",
             "flow_id": "525467470cf262a4e40cfea2",
-            "featured": 1,
-            "listable": 1
+            "featured": 1
           },
           {
             "name": "Latest Sports",
             "flow_id": "525467470cf262a4e40cfe84",
-            "featured": 0,
-            "listable": 0
+            "default": 1
           },
           {
             "name": "Bruins",
-            "flow_id": "525467470cf262a4e40cfe72",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe72"
           },
           {
             "name": "Celtics",
-            "flow_id": "525467470cf262a4e40cfe78",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe78"
           },
           {
             "name": "Fantasy",
-            "flow_id": "525467470cf262a4e40cfe7e",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe7e"
           },
           {
             "name": "Patriots",
-            "flow_id": "525467470cf262a4e40cfe8a",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe8a"
           },
           {
             "name": "Red Sox",
-            "flow_id": "525467470cf262a4e40cfe90",
-            "featured": 0,
-            "listable": 1
+            "flow_id": "525467470cf262a4e40cfe90"
           }
-        ]
+        ],
+        "item_class": "Article"
       },
       {
-        "name": "Weather"
+        "name": "Best Of",
+        "feeds": [
+          {
+            "name": "Featured Best Of",
+            "flow_id": "525467470cf262a4e40cfe96",
+            "featured": "1"
+          },
+          {
+            "name": "Best Of",
+            "flow_id": "525467470cf262a4e40cfe42",
+            "default": "1"
+          },
+          {
+            "name": "Arts & Culture",
+            "flow_id": "525467470cf262a4e40cfe1e"
+          },
+          {
+            "name": "Family & Pets",
+            "flow_id": "525467470cf262a4e40cfe24"
+          },
+          {
+            "name": "Food & Drink",
+            "flow_id": "525467470cf262a4e40cfe2a"
+          },
+          {
+            "name": "Nightlife & Music",
+            "flow_id": "525467470cf262a4e40cfe30"
+          },
+          {
+            "name": "Shopping & Style",
+            "flow_id": "525467470cf262a4e40cfe36"
+          }
+        ],
+        "item_class": "Article"
       },
       {
-        "name": "Traffic"
+        "name": "Video",
+        "feeds": [
+          {
+            "name": "Video",
+            "flow_id": "525467470cf262a4e40cfeba",
+            "default": 1
+          }
+        ],
+        "item_class": "Video"
+      },
+      {
+        "name": "Offers",
+        "feeds": [
+          {
+            "name": "Offers",
+            "flow_id": "525467470cf262a4e40cfec0",
+            "default": 1
+          }
+        ],
+        "item_class": "Offer"
+      },
+      {
+        "name": "Events",
+        "feeds": [
+          {
+            "name": "Events",
+            "flow_id": "525467470cf262a4e40cfea8",
+            "default": 1
+          }
+        ],
+        "item_class": "Event"
+      },
+      {
+        "name": "Weather",
+        "feeds": [
+          {
+            "name": "Weather",
+            "flow_id": "52a8cfaf0cf2702192cc50c5",
+            "default": 1
+          }
+        ],
+        "item_class": "Weather"
       }
     ],
-    "home_category_order": [ [0, 0], [1, 0], [2, 0], [3, 0] ],
     "latitude": 42.3626,
     "longitude": -71.060,
+    "logo_url": "https://yourday-dev.s3.amazonaws.com/uploads/cbsBoston.png",
     "market_id": 8,
     "name": "Boston",
+    "newsletter_site_code": "CBSBOSTON",
+    "newsletter_site_id": "1831",
     "stations": [
       {
         "mountpoints": [
@@ -436,7 +505,9 @@
         "website_url": "http://www.1033ampradio.com/"
       }
     ],
+    "tag": "boston",
     "traffic_url": "",
-    "zip": "10046"
+    "wunderground_api_url": "http://api.wunderground.com/api/",
+    "zip": "02114"
   }
 }
