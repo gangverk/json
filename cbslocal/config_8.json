@@ -507,7 +507,8 @@
     ],
     "tag": "boston",
     "traffic_url": "",
-    "wunderground_api_url": "http://api.wunderground.com/api/",
+    "weather_flow_id": "52a8cfaf0cf2702192cc50c5",
     "zip": "02114"
-  }
+  },
+  "wunderground_api_url": "http://api.wunderground.com/api/"
 }
