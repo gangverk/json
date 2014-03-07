@@ -1,0 +1,206 @@
+{
+  "cache_timeout_news": 3600,
+  "cache_timeout_podcasts": 3600,
+  "cache_timeout_topsongs": 3600,
+  "data_sync_delay": 3600,
+  "data_sync_retry_limit": 3,
+  "facebook_access_token": "260041167455396|1BrFXgXpM2XxUpujx_aQKpZUgFY",
+  "home_scroller_durations": [15, 3, 3],
+  "restart_playback_delay": 7200,
+  "schedule_url": "http://bylgjan.visir.is/appsupport-dagskra",
+  "startup_ad_check_delay": 3600,
+  "startup_ad_url": "http://bylgjan.visir.is/VideoSplash?station=bb&width=%d&height=%d&platform=%@",
+  "stations": [
+    {
+      "uid":"d6070048-eba2-4a2f-81b9-e1156ee911c3",
+      "name":"X-IÐ",
+      "summary":"X977 er framsæknasta úrtvarpsstöð landsins og verið það frá stofnun og oft kölluð “musteri rokksins”. Meðal þeirra sem starfað hafa á Xinu í gegnum árin eru meðal annars: Jón Gnarr, Sigurjón Kjartansson, Kastljós Sigmar, Gunnar Sigurðsson, Þossi, Jón Atli, Hans Steinar Bjarna ásamt Frosta og Mána. Þetta er bara brot af þeim snillingum sem hafa alið manninn á Xinu.  Markhópur X977 er ungt og framsækið fólk. X977 sendir út á þremur FM sendum, í sjónvarpi Símanns og Vodafone, á x977.is, á visir.is og í Útvappinu.",
+      "email":"app@x977.is",
+      "phone":"5170977",
+      "theme":{
+        "logo":"logo_x977.png",
+        "menu_image":"logo_x977_menu.png",
+        "primary_color":"#8c8c8c"
+      },
+      "twitter_id":"xid977",
+      "url":"http://x977.visir.is/",
+      "audio_url": "http://212.30.228.52/xid.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=xid",
+      "news_url":"http://x977.visir.is/appsupport-frettir-xid?page=%d",
+      "top_songs_url":"http://x977.visir.is/appsupport-topplisti-xid",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    },
+    {
+      "uid":"d6070048-eba2-4a2f-81b9-e1156ee911c4",
+      "name":"APPARATIÐ",
+      "summary":"Leggur áherslu á að kynna og spila framsækna nýja og nýlega íslenska tónlist og spilar eldra efni í bland. Apparatið er viðburðatengd útvarpssöð og sinnir þá stórum og spennandi tónlistarviðburðum með ýtarlegum hætti hverju sinni.  Apparatið leikur nýjar útgáfur í heild sinni ásamt að sérstakir tónlistarþemar verða reglulega í boði. Apparatið sendir út í gegn Útvappið en mun einnig nást í sjónvarpi Símanns og Vodafone og á visir.is.",
+      "email":"app@x977.is",
+      "phone":"5170977",
+      "theme":{
+        "logo":"logo_apparatid.png",
+        "menu_image":"logo_apparatid_menu.png",
+        "primary_color":"#E6A838"
+      },
+      "twitter_id":"xid977",
+      "url":"http://x977.visir.is/",
+      "audio_url": "http://212.30.228.52/apparatid.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=apparatid",
+      "news_url":"http://x977.visir.is/appsupport-frettir-xid?page=%d",
+      "top_songs_url":"http://x977.visir.is/appsupport-topplisti-xid",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=11&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    },
+    {
+      "uid":"a285f8d7-0530-455a-bd49-06f0ae53a4a6",
+      "name":"BYLGJAN",
+      "summary":"Bylgjan er fyrsta frjálsa útvarpsstöð landsins, stofnuð árið 1986 og hóf útsendingar í gamla Osta- og smjörsöluhúsinu við Snorrabraut. Bylgjan hefur alltaf verið vinsælasta frjálsa útvarpsstöðin og síðustu ár vinsælasta útvarpsstöð landsins. Bylgjan er þekkt fyrir fjölbreytta og góða tónlist í bland við traustar fréttir, fróðleik og létt spjall. Markhópur Bylgjunnar er á aldursbilinu 20-54 ára af öllu landinu. Bylgjan sendir út á 58  FM sendum um allt land, í sjónvarpi Símanns og Vodafone, á bylgjan.is, á visir.is og í Útvappinu.  Nánari upplýsingar um FM tíðnir er að finna á bylgjan.is",
+      "email":"app@bylgjan.is",
+      "phone":"5671111",
+      "theme":{
+        "logo":"logo_fm989.png",
+        "menu_image":"logo_fm989_menu.png",
+        "primary_color":"#ce142b"
+      },
+      "twitter_id":"",
+      "url":"http://bylgjan.visir.is/",
+      "audio_url": "http://212.30.228.52/bylgjan.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=bylgjan",
+      "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan?page=%d",
+      "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    },
+    {
+      "uid":"2e9d01ff-c887-4015-86ed-08efc79783e3",
+      "name":"LÉTT BYLGJAN",
+      "summary":"Létt og þægileg tónlist. Minna mas. Létt Bylgjan leikur lögin við vinnuna. Létt Bylgjan sendir út á FM sendum á höfuðborgarsvæðinu og á Akureyri,  í sjónvarpi Símanns og Vodafone, á lettbylgjan.is, á visir.is og í Útvappinu.",
+      "email":"app@lettbylgjan.is",
+      "phone":"",
+      "theme":{
+        "logo":"logo_fm967.png",
+        "menu_image":"logo_fm967_menu.png",
+        "primary_color":"#00a5d5"
+      },
+      "twitter_id":"",
+      "url":"http://lettbylgjan.visir.is/",
+      "audio_url": "http://212.30.228.52/lett.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=lettbylgjan",
+      "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan?page=%d",
+      "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    },
+    {
+      "uid":"dc311586-fc21-4c11-a659-9640e0f6c814",
+      "name":"GULL BYLGJAN",
+      "summary":"Allt það vinsælasta frá árunum frá 1963 til 1983 – Minna mas meiri tónlist ásamt fréttum á heila tímanum virka daga. Gull Bylgjan sendir út á einum FM sendi á höfuðborgarsvæðinu, í sjónvarpi Símanns og Vodafone, á bylgjan.is, á visir.is og í Útvappinu.",
+      "email":"app@gullbylgjan.is",
+      "phone":"",
+      "theme":{
+        "logo":"logo_fm909.png",
+        "menu_image":"logo_fm909_menu.png",
+        "primary_color":"#f1b501"
+      },
+      "twitter_id":"",
+      "url":"",
+      "audio_url": "http://212.30.228.52/gull.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=gullbylgjan",
+      "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan?page=%d",
+      "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    },
+    {
+      "uid":"2e9d01ff-c887-4015-86ed-08efc79783e4",
+      "name":"80's BYLGJAN",
+      "summary":"Rifjar upp bestu stundir þeirra sem nutu sín í botn á níunda áratugnum með fjölbreyttri blöndu af vinsælustu lögunum þess tíma, sem leikin eru allan sólahringinn. 80´s Bylgjan sendir út í gegn Útvappið en mun einnig nást í sjónvarpi Símanns og Vodafone, á bylgjan.is og á visir.is.",
+      "email":"app@bylgjan.is",
+      "phone":"",
+      "theme":{
+        "logo":"logo_80sbylgjan.png",
+        "menu_image":"logo_80sbylgjan_menu.png",
+        "primary_color":"#7D2A8B"
+      },
+      "twitter_id":"",
+      "url":"http://bylgjan.visir.is/",
+      "audio_url": "http://212.30.228.52/80s.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=80s",
+      "news_url":"http://bylgjan.visir.is/appsupport-frettir-bylgjan?page=%d",
+      "top_songs_url":"http://bylgjan.visir.is/appsupport-topplisti-bylgjan",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=10&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    },
+    {
+      "uid":"8a9ed3f3-4457-4d07-9c67-393b3402ec29",
+      "name":"FM957",
+      "summary":"FM957 er fór fyrst í loftið árið 1988.  FM957 hefur ávalt lagt áherslu á að höfða til ungs fólks. Stöðin leikur topplögin í heiminum hverju sinni og slagorð stöðvarinnar til margra ára verið topp tónlistarstöðin. Það er mikill fjöldi íslendinga sem hreinlega hafa alist upp með FM957. Markhópur FM957 er 16-34 ára og sendir út á FM sendum víðsvegar um landið, í sjónvarpi Símanns og Vodafone, á FM957.is, á visir.is og í Útvappinu.",
+      "email":"app@fm957.is",
+      "phone":"5110957",
+      "theme":{
+        "logo":"logo_fm957.png",
+        "menu_image":"logo_fm957_menu.png",
+        "primary_color":"#94ca24"
+      },
+      "twitter_id":"FM_957",
+      "url":"http://fm957.visir.is/",
+      "audio_url": "http://212.30.228.52/fm957.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=fm957",
+      "news_url":"http://fm957.visir.is/appsupport-frettir-fm957?page=%d",
+      "top_songs_url":"http://fm957.visir.is/appsupport-topplisti-fm957",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=12&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    },
+    {
+      "uid":"8a9ed3f3-4457-4d07-9c67-393b3402ec30",
+      "name":"FMEXTRA",
+      "summary":"Með besta og ferskasta bítið í bænum. Meira Hip Hop, meiri Dance, meira Dub Step og allir í fíling. FM Extra sendir út í gegn Útvappið en mun einnig nást í sjónvarpi Símanns og Vodafone, á fm957.is og á visir.is.",
+      "email":"app@fm957.is",
+      "phone":"5110957",
+      "theme":{
+        "logo":"logo_fmextra.png",
+        "menu_image":"logo_fmextra_menu.png",
+        "primary_color":"#7D2A8B"
+      },
+      "twitter_id":"FM_957",
+      "url":"http://fm957.visir.is/",
+      "audio_url": "http://212.30.228.52/fmextra.flv",
+      "metadata_url": "http://vefutvarp.visir.is/now-playing?st=fmextra",
+      "news_url":"http://fm957.visir.is/appsupport-frettir-fm957?page=%d",
+      "top_songs_url":"http://fm957.visir.is/appsupport-topplisti-fm957",
+      "podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&kat=12&subkat=0&channeltype=a&itemsPerPage=10&cachetime=60&mime=json&page=%d",
+      "top_podcasts_url":"http://www.visir.is/section/MEDIA02&template=mlist_apps?list=popular&time=now&channeltype=a&itemsPerPage=10&cachetime=60&mime=json",
+      "news_podcasts_url":"http://visir.is/section/MEDIA02&template=mlist_apps?&channeltype=a&kat=99&subkat=55&itemsPerPage=10&cachetime=60&mime=json&page=%d"
+    }
+  ],
+  "tvstations":[
+    {
+      "uid": "d6070048-eba2-4a2f-81b9-e1156ee9XXXX",
+      "name": "POPP",
+      "summary": "",
+      "email": "",
+      "phone": "",
+      "theme": {
+          "logo": "popp.png",
+          "menu_image": "logo_popp_menu.png",
+          "primary_color": "#8c8c8c"
+      },
+      "twitter_id": "",
+      "url": "",
+      "audio_url": "http://api.oz.com/offering/netfrelsi/of73af802-2e00-490f-8d05-53f468509e1c/token",
+      "metadata_url": "",
+      "news_url": "",
+      "top_songs_url": "",
+      "podcasts_url": "",
+      "top_podcasts_url": "",
+      "news_podcasts_url": ""
+   }
+  ]
+}
