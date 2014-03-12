@@ -200,7 +200,8 @@
       "top_songs_url": "",
       "podcasts_url": "",
       "top_podcasts_url": "",
-      "news_podcasts_url": ""
+      "news_podcasts_url": "",
+      "is_tv_station": true
    }
   ]
 }
