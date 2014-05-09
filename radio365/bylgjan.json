@@ -1,3 +1,4 @@
+
 {
   "cache_timeout_news": 3600,
   "cache_timeout_podcasts": 3600,
@@ -34,7 +35,7 @@
     },
     {
       "uid":"2e9d01ff-c887-4015-86ed-08efc79783e3",
-      "name":"LÉTT BYLGJAN",
+      "name":"LÉTT TEST",
       "summary":"Létt og þægileg tónlist. Minna mas. Létt Bylgjan leikur lögin við vinnuna. Létt Bylgjan sendir út á FM sendum á höfuðborgarsvæðinu og á Akureyri,  í sjónvarpi Símanns og Vodafone, á lettbylgjan.is, á visir.is og í Útvappinu.",
       "email":"app@lettbylgjan.is",
       "phone":"",
